@@ -109,8 +109,12 @@ with a dashed underline on the page, so nothing ships silently unfinished.
   them so the live path stays valid, but images in the committed snapshot will rot.
   Broken ones hide themselves rather than showing a broken-image icon. Proper fix:
   have the cron mirror thumbnails into Vercel Blob.
-- **Video autoplay is not built yet.** The work grid uses static thumbnails linking to
-  the original posts. Autoplay needs the mp4s uploaded to Vercel Blob first.
+- **Autoplay is live, but only on the posts Meta gives a video URL for.** The Graph
+  API returns a direct mp4 for 3 of 12 Reels — Meta has been withdrawing `media_url`
+  for Reels. Those clips autoplay muted, loop, and pause when scrolled out of view.
+  The rest show their poster frame. To autoplay one of those, export the mp4, upload
+  it to Vercel Blob, and add the URL to `videoOverrides` in `src/data/content.ts`
+  keyed by media id — a hosted file always wins over Meta's URL and never expires.
 - **Visual design is deliberately plain.** Structure carries the "digital files" idea;
   decoration comes later. Restyling should only mean changing tokens in
   `global.css`, not touching markup.

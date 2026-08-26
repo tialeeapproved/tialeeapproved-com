@@ -26,6 +26,8 @@ export interface MediaItem {
   caption: string | null;
   mediaType: string;
   thumbnail: string | null;
+  /** Direct mp4 from the Graph API. Meta only returns this for some Reels. */
+  videoUrl: string | null;
   likes: number;
   comments: number;
   views: number;
@@ -71,6 +73,11 @@ async function graph(path: string, params: Record<string, string>): Promise<any>
     throw new Error(`Graph API ${path}: ${body.error.message} (code ${body.error.code})`);
   }
   return body;
+}
+
+/** Meta returns media_url for only some Reels, and for albums it is an image. */
+function isMp4(url: unknown): url is string {
+  return typeof url === 'string' && url.split('?')[0].toLowerCase().endsWith('.mp4');
 }
 
 function breakdown(payload: any): Demographic[] {
@@ -131,7 +138,8 @@ export async function fetchSnapshot(): Promise<Snapshot> {
         timestamp: m.timestamp,
         caption: m.caption ?? null,
         mediaType: m.media_type,
-        thumbnail: m.thumbnail_url ?? m.media_url ?? null,
+        thumbnail: m.thumbnail_url ?? null,
+        videoUrl: isMp4(m.media_url) ? m.media_url : null,
         likes: m.like_count ?? 0,
         comments: m.comments_count ?? 0,
         views: ins.views ?? 0,

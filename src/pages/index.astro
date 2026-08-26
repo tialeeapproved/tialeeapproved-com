@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import { site, hero, pillars, brands, services, contact, mailto } from '../data/content';
+import { site, hero, pillars, brands, services, contact, mailto, videoOverrides } from '../data/content';
 import { readSnapshot } from '../lib/store';
 import { DATA_ACCESS_EXPIRES } from '../lib/instagram';
 
@@ -39,7 +39,14 @@ const bestReachVsFollowers = best && data.followers
 
 const topCities = data.cities.slice(0, 6);
 // A media kit leads with the best work, not the most recent.
-const work = [...data.media].filter((m) => m.reach > 0).sort((a, b) => b.reach - a.reach).slice(0, 8);
+const work = [...data.media]
+  .filter((m) => m.reach > 0)
+  .sort((a, b) => b.reach - a.reach)
+  .slice(0, 8)
+  // A file you host wins over Meta's URL: it never expires and always exists.
+  .map((m) => ({ ...m, clip: videoOverrides[m.id] ?? m.videoUrl }));
+
+const autoplayCount = work.filter((m) => m.clip).length;
 ---
 
 <!doctype html>
@@ -188,27 +195,28 @@ const work = [...data.media].filter((m) => m.reach > 0).sort((a, b) => b.reach -
             <span class="section-num">04</span>
             <span class="section-title">Work</span>
             <span class="rule"></span>
-            <span class="section-tag">Numbers pulled per post</span>
+            <span class="section-tag">{autoplayCount > 0 ? `${autoplayCount} of ${work.length} autoplaying` : "Numbers pulled per post"}</span>
           </div>
           <div class="grid">
             {work.map((m) => (
               <a class="card" href={m.permalink} target="_blank" rel="noopener noreferrer">
                 <div class="media">
-                  {/*
-                    Instagram CDN thumbnail URLs are signed and expire. The daily cron
-                    refreshes them, so the live path stays valid; if one does 404 we hide
-                    the broken image and let the neutral tile show through rather than
-                    rendering a broken-image icon.
-                    v2: have the cron mirror thumbnails into Vercel Blob so they never rot.
-                  */}
-                  {m.thumbnail && (
-                    <img
-                      src={m.thumbnail}
-                      alt=""
-                      loading="lazy"
-                      decoding="async"
-                      onerror="this.style.display='none'"
+                  {m.clip ? (
+                    <video
+                      src={m.clip}
+                      poster={m.thumbnail ?? undefined}
+                      muted
+                      loop
+                      playsinline
+                      autoplay
+                      preload="none"
+                      tabindex="-1"
+                      data-clip
                     />
+                  ) : (
+                    m.thumbnail && (
+                      <img src={m.thumbnail} alt="" loading="lazy" decoding="async" onerror="this.style.display='none'" />
+                    )
                   )}
                 </div>
                 <div class="meta">
@@ -270,5 +278,41 @@ const work = [...data.media].filter((m) => m.reach > 0).sort((a, b) => b.reach -
     </main>
 
     <!-- Data access for the Meta app expires {DATA_ACCESS_EXPIRES}; re-authorize before then. -->
+
+    <script>
+      /*
+       * Play clips only while they are on screen.
+       *
+       * `autoplay` alone starts every video at once — eight simultaneous streams
+       * is a bandwidth bill and a stuttering phone. This pauses anything scrolled
+       * out of view and resumes it on the way back.
+       *
+       * Anyone who has asked their OS to reduce motion gets the poster frame and
+       * nothing else.
+       */
+      const clips = document.querySelectorAll('video[data-clip]');
+      const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      if (still) {
+        clips.forEach((v) => { v.autoplay = false; v.removeAttribute('autoplay'); v.pause(); });
+      } else if ('IntersectionObserver' in window) {
+        const io = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((e) => {
+              const v = e.target;
+              if (e.isIntersecting) {
+                // play() rejects if the browser blocks it (iOS Low Power Mode,
+                // data saver). The poster frame is the fallback, so ignore it.
+                v.play().catch(() => {});
+              } else {
+                v.pause();
+              }
+            });
+          },
+          { rootMargin: '100px', threshold: 0.25 }
+        );
+        clips.forEach((v) => io.observe(v));
+      }
+    </script>
   </body>
 </html>

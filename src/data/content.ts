@@ -102,3 +102,22 @@ export function mailto(): string {
   // URLSearchParams encodes spaces as "+", which mail clients render literally.
   return `mailto:${site.email}?${params.toString().replace(/\+/g, '%20')}`;
 }
+
+/**
+ * Your own hosted video files, keyed by Instagram media id.
+ *
+ * WHY THIS EXISTS: Meta only returns a direct mp4 for some Reels — currently 3 of
+ * your 12 — so the API alone can't autoplay the whole grid. Anything listed here
+ * takes priority over the API's URL and never expires.
+ *
+ * TO ADD ONE:
+ *   1. Export the reel as mp4 (keep it under ~3MB — trim to the best 5-8 seconds,
+ *      it's a preview loop, not the full post)
+ *   2. Upload to Vercel Blob, copy the URL it returns
+ *   3. Add a line below: '<media id>': 'https://…blob.vercel-storage.com/clip.mp4'
+ *
+ * Media ids are in src/data/snapshot.json, next to each post's numbers.
+ */
+export const videoOverrides: Record<string, string> = {
+  // '17903323659391284': 'https://…public.blob.vercel-storage.com/clip.mp4',
+};

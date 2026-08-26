@@ -36,6 +36,8 @@ async function graph(path, params) {
   return body;
 }
 
+const isMp4 = (u) => typeof u === 'string' && u.split('?')[0].toLowerCase().endsWith('.mp4');
+
 const breakdown = (p) =>
   (p?.data?.[0]?.total_value?.breakdowns?.[0]?.results ?? [])
     .map((r) => ({ label: r.dimension_values[0], value: r.value }))
@@ -79,7 +81,8 @@ for (const m of media.data ?? []) {
     timestamp: m.timestamp,
     caption: m.caption ?? null,
     mediaType: m.media_type,
-    thumbnail: m.thumbnail_url ?? m.media_url ?? null,
+    thumbnail: m.thumbnail_url ?? null,
+    videoUrl: isMp4(m.media_url) ? m.media_url : null,
     likes: m.like_count ?? 0,
     comments: m.comments_count ?? 0,
     views: ins.views ?? 0,
