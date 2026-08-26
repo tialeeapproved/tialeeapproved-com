@@ -1,0 +1,591 @@
+{
+  "syncedAt": "2026-08-26T21:54:54.058Z",
+  "username": "tialeeapproved",
+  "followers": 12575,
+  "posts": 70,
+  "reach28": 17227,
+  "views28": 58713,
+  "profileViews28": 1950,
+  "interactions28": 1075,
+  "saves28": 15,
+  "shares28": 23,
+  "engagementRate": 6.2,
+  "age": [
+    {
+      "label": "25-34",
+      "value": 5417
+    },
+    {
+      "label": "35-44",
+      "value": 3160
+    },
+    {
+      "label": "45-54",
+      "value": 1455
+    },
+    {
+      "label": "18-24",
+      "value": 537
+    },
+    {
+      "label": "55-64",
+      "value": 530
+    },
+    {
+      "label": "65+",
+      "value": 183
+    },
+    {
+      "label": "13-17",
+      "value": 20
+    }
+  ],
+  "gender": [
+    {
+      "label": "F",
+      "value": 5871
+    },
+    {
+      "label": "M",
+      "value": 3527
+    },
+    {
+      "label": "U",
+      "value": 1904
+    }
+  ],
+  "cities": [
+    {
+      "label": "Detroit, Michigan",
+      "value": 830
+    },
+    {
+      "label": "New York, New York",
+      "value": 749
+    },
+    {
+      "label": "Chicago, Illinois",
+      "value": 250
+    },
+    {
+      "label": "Los Angeles, California",
+      "value": 208
+    },
+    {
+      "label": "Atlanta, Georgia",
+      "value": 183
+    },
+    {
+      "label": "Houston, Texas",
+      "value": 164
+    },
+    {
+      "label": "Southfield, Michigan",
+      "value": 139
+    },
+    {
+      "label": "Charlotte, North Carolina",
+      "value": 98
+    },
+    {
+      "label": "Washington D.C., Washington, District of Columbia",
+      "value": 96
+    },
+    {
+      "label": "Philadelphia, Pennsylvania",
+      "value": 92
+    },
+    {
+      "label": "Dallas, Texas",
+      "value": 90
+    },
+    {
+      "label": "Oakland, California",
+      "value": 62
+    },
+    {
+      "label": "Columbus, Ohio",
+      "value": 61
+    },
+    {
+      "label": "Baltimore, Maryland",
+      "value": 60
+    },
+    {
+      "label": "Warren, Michigan",
+      "value": 54
+    },
+    {
+      "label": "San Francisco, California",
+      "value": 53
+    },
+    {
+      "label": "Farmington Hills, Michigan",
+      "value": 48
+    },
+    {
+      "label": "Redford, Michigan",
+      "value": 47
+    },
+    {
+      "label": "Indianapolis, Indiana",
+      "value": 46
+    },
+    {
+      "label": "Memphis, Tennessee",
+      "value": 42
+    },
+    {
+      "label": "Clinton Township, Michigan",
+      "value": 42
+    },
+    {
+      "label": "Phoenix, Arizona",
+      "value": 42
+    },
+    {
+      "label": "Lansing, Michigan",
+      "value": 42
+    },
+    {
+      "label": "Jacksonville, Florida",
+      "value": 41
+    },
+    {
+      "label": "Toronto, Ontario",
+      "value": 41
+    },
+    {
+      "label": "Fort Worth, Texas",
+      "value": 39
+    },
+    {
+      "label": "Sterling Heights, Michigan",
+      "value": 38
+    },
+    {
+      "label": "Troy, Michigan",
+      "value": 36
+    },
+    {
+      "label": "West Bloomfield Township, Michigan",
+      "value": 35
+    },
+    {
+      "label": "London, England",
+      "value": 34
+    },
+    {
+      "label": "Seattle, Washington",
+      "value": 34
+    },
+    {
+      "label": "Nashville, Tennessee",
+      "value": 34
+    },
+    {
+      "label": "Boston, Massachusetts",
+      "value": 34
+    },
+    {
+      "label": "Milwaukee, Wisconsin",
+      "value": 33
+    },
+    {
+      "label": "Canton, Michigan",
+      "value": 32
+    },
+    {
+      "label": "Oak Park, Michigan",
+      "value": 32
+    },
+    {
+      "label": "Royal Oak, Michigan",
+      "value": 31
+    },
+    {
+      "label": "Pontiac, Michigan",
+      "value": 31
+    },
+    {
+      "label": "Miami, Florida",
+      "value": 31
+    },
+    {
+      "label": "Lagos, Lagos State",
+      "value": 30
+    },
+    {
+      "label": "Jersey City, New Jersey",
+      "value": 28
+    },
+    {
+      "label": "Eastpointe, Michigan",
+      "value": 27
+    },
+    {
+      "label": "San Diego, California",
+      "value": 27
+    },
+    {
+      "label": "Cincinnati, Ohio",
+      "value": 26
+    },
+    {
+      "label": "Romulus, Michigan",
+      "value": 26
+    }
+  ],
+  "countries": [
+    {
+      "label": "US",
+      "value": 10441
+    },
+    {
+      "label": "CA",
+      "value": 146
+    },
+    {
+      "label": "NG",
+      "value": 91
+    },
+    {
+      "label": "GB",
+      "value": 83
+    },
+    {
+      "label": "PH",
+      "value": 33
+    },
+    {
+      "label": "ZA",
+      "value": 31
+    },
+    {
+      "label": "JM",
+      "value": 30
+    },
+    {
+      "label": "IN",
+      "value": 29
+    },
+    {
+      "label": "DE",
+      "value": 19
+    },
+    {
+      "label": "BR",
+      "value": 19
+    },
+    {
+      "label": "NL",
+      "value": 19
+    },
+    {
+      "label": "MX",
+      "value": 18
+    },
+    {
+      "label": "FR",
+      "value": 16
+    },
+    {
+      "label": "TT",
+      "value": 15
+    },
+    {
+      "label": "IT",
+      "value": 14
+    },
+    {
+      "label": "AU",
+      "value": 14
+    },
+    {
+      "label": "BB",
+      "value": 13
+    },
+    {
+      "label": "BS",
+      "value": 13
+    },
+    {
+      "label": "ES",
+      "value": 13
+    },
+    {
+      "label": "KE",
+      "value": 11
+    },
+    {
+      "label": "GH",
+      "value": 11
+    },
+    {
+      "label": "EG",
+      "value": 8
+    },
+    {
+      "label": "PK",
+      "value": 8
+    },
+    {
+      "label": "BM",
+      "value": 6
+    },
+    {
+      "label": "MA",
+      "value": 6
+    },
+    {
+      "label": "IL",
+      "value": 6
+    },
+    {
+      "label": "CN",
+      "value": 6
+    },
+    {
+      "label": "BD",
+      "value": 5
+    },
+    {
+      "label": "DO",
+      "value": 5
+    },
+    {
+      "label": "SE",
+      "value": 5
+    },
+    {
+      "label": "AE",
+      "value": 5
+    },
+    {
+      "label": "ZM",
+      "value": 5
+    },
+    {
+      "label": "PE",
+      "value": 5
+    },
+    {
+      "label": "PL",
+      "value": 5
+    },
+    {
+      "label": "PR",
+      "value": 4
+    },
+    {
+      "label": "JP",
+      "value": 4
+    },
+    {
+      "label": "TZ",
+      "value": 4
+    },
+    {
+      "label": "HT",
+      "value": 4
+    },
+    {
+      "label": "AR",
+      "value": 4
+    },
+    {
+      "label": "TH",
+      "value": 4
+    },
+    {
+      "label": "TW",
+      "value": 3
+    },
+    {
+      "label": "LR",
+      "value": 3
+    },
+    {
+      "label": "CL",
+      "value": 3
+    },
+    {
+      "label": "CO",
+      "value": 3
+    },
+    {
+      "label": "LB",
+      "value": 3
+    }
+  ],
+  "media": [
+    {
+      "id": "18101756237045908",
+      "permalink": "https://www.instagram.com/reel/DZdZgJaRVi_/",
+      "timestamp": "2026-06-11T20:46:03+0000",
+      "caption": "he’s the first person i call for everything, including record shopping using my @RayBanMeta glasses 💖 they are the best Father’s Day gift i could give him (and yes i blocked my dad from seeing this so everyone behave 🤫) #RayBanMetaPartner #ad",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/721340065_18598163626057149_4618696270072252916_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=R3N0uOU-4AkQ7kNvwHt0SFG&_nc_oc=Adol1BQE8NGbveUU5mZnFyY7vAKRw7UfvLycE4iyFwteQcdgV2HXMyHjuDVD5Nm5e-w&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=merA6tUscPb3X3mDbd-xhQ&_nc_tpa=Q5bMBQIyBu9egrnBV0x1XYPe2vzywOk4LJXNPE9926pPFQVDo8lKCI8Gfl33p5mOqfCZkX7HHt2_mxElvQ&oh=00_AQHc0qotS7hCr09-S4y1RasfBzgR4Rx6mh6SsUbLREhCfQ&oe=6A954081",
+      "likes": 298,
+      "comments": 29,
+      "views": 5479,
+      "reach": 3690,
+      "saves": 8,
+      "shares": 12
+    },
+    {
+      "id": "18209175244337967",
+      "permalink": "https://www.instagram.com/reel/DZatt_gxAsH/",
+      "timestamp": "2026-06-10T19:41:08+0000",
+      "caption": "closed out my fav daddy daughter weekend at @detroitfoundationhotel. detroit, i’ll be back 🥹❤️",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/721464223_18597891799057149_8317529878561234722_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ZGjcI3B-KvUQ7kNvwHz_YpI&_nc_oc=AdrAgFEESPAG4iSwQilfeUa1cwpdUdeJVDownoVMpaIWxkzc7R58cjbTRdwDxRW9u50&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=merA6tUscPb3X3mDbd-xhQ&_nc_tpa=Q5bMBQKfbTa4aiTbcXwbwOq8gIp0hnoyYq71BZVLUGozWGVaJM20WscGzlLpNq8YS0IsL-uGMm8l3FFJQw&oh=00_AQGn8tZGDIyCytJCGe4AXR57Hz_3ThC9XRJAmv7yRPQSNg&oe=6A954894",
+      "likes": 946,
+      "comments": 92,
+      "views": 15898,
+      "reach": 10445,
+      "saves": 160,
+      "shares": 231
+    },
+    {
+      "id": "18067446059405818",
+      "permalink": "https://www.instagram.com/reel/DZLMZFHRUfu/",
+      "timestamp": "2026-06-04T19:02:47+0000",
+      "caption": "it’s not Movement without a pregame 🤭",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.71878-15/714955370_1570020348026061_939591688128781126_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=vUIN6FjbLQAQ7kNvwFZhGT7&_nc_oc=Adr82WRCvohposEqzlgFtckibiQDVvuxKitsIWR4zPUjVtDbgTXrxpe9c7XEt3F2Z10&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=merA6tUscPb3X3mDbd-xhQ&_nc_tpa=Q5bMBQK-Jn593grQ7vXybkx5gx2X7CS7rilM4QY18s0DRV8OU2qK0QHxu188KjEmWZGdgyfzckOXjcuIfg&oh=00_AQFtMEC7CTc_T3slHvZGQZ_OmZgCHrjWspI91f88vc9daA&oe=6A954263",
+      "likes": 154,
+      "comments": 21,
+      "views": 3742,
+      "reach": 2450,
+      "saves": 2,
+      "shares": 4
+    },
+    {
+      "id": "18328161829268182",
+      "permalink": "https://www.instagram.com/reel/DZIny9JxQmq/",
+      "timestamp": "2026-06-03T19:02:27+0000",
+      "caption": "i love coming back to my city ❤️ had an extra special homecoming for Movement weekend with @detroitfoundationhotel let’s see what we had in store for our daddy daughter weekend ☺️",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/717228712_18595912204057149_8878173590791588188_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9E8d9JoksBwQ7kNvwFLsvsc&_nc_oc=AdohTu0AuiuUyif1cgp8k70xVXRReLwmOdPHCGJkFEu7IrM6qQ8tEzk5lqT_c9kzpJU&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=merA6tUscPb3X3mDbd-xhQ&_nc_tpa=Q5bMBQKAgtFWvpY5CF1g_3p8nuww4edIIE2i2ICJ43FORHiqWbNSYKfkQc5RgQfpIalDSZX6JUDQx_fduw&oh=00_AQHvjg64CUdvJGdWTsNTkGwctqhnaelZ9CAQgk0TOSPEog&oe=6A954886",
+      "likes": 158,
+      "comments": 9,
+      "views": 4247,
+      "reach": 2803,
+      "saves": 12,
+      "shares": 6
+    },
+    {
+      "id": "17909357355408642",
+      "permalink": "https://www.instagram.com/reel/DYhpc8uRjQf/",
+      "timestamp": "2026-05-19T15:45:53+0000",
+      "caption": "loving my new comfort zone thanks to @egohomeofficial ☺️ we deserve good sleep as we kick off the summer – use ‘LHtia’ for an extra 5% off your mattress andddd enjoy up to 55% off with their summer sale 🛏️💖\n\n#ad #MyEGOMemory #TalkAboutYourEGO #EGOBlackDreamHack",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/703069881_18591358714057149_6648689548899726455_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=sc2GbMxb0foQ7kNvwEisTz8&_nc_oc=AdphehzXKhHyjQqxMlnqz0OWyXfYLQN5CM_eX4wnEquNp7NkVf19MMbOF5EESxQsV2k&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=merA6tUscPb3X3mDbd-xhQ&_nc_tpa=Q5bMBQLMRzyKF7E-bGZnqD_gd9ZSPjg5XIj6eupcucNj5on57mWju2H-xpfygrh7lf_7vR-bwkzrnzHGzg&oh=00_AQHsU9PG09pKi-naOG7WxMoceWY1F4v7BJwj20KuuRB1Eg&oe=6A95303F",
+      "likes": 530,
+      "comments": 112,
+      "views": 8461,
+      "reach": 5254,
+      "saves": 39,
+      "shares": 42
+    },
+    {
+      "id": "17881184025588458",
+      "permalink": "https://www.instagram.com/reel/DYc2tNURqUw/",
+      "timestamp": "2026-05-17T19:12:37+0000",
+      "caption": "little tia was pleasantly surprised 🤭 who knew upgrading your retainer routine could be this easy? loving my new dental routine with @zimadental pod pro 🪥🤍",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/701681577_18590835985057149_5172877303267838664_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Aa9GuDp-osMQ7kNvwGShW8Y&_nc_oc=AdqdVwQ33ie46yXieUyr1jrloXlS-3bC8IQPvPtQAFqZ1yqt0kE06MsDrv-Bzbf0kGI&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=merA6tUscPb3X3mDbd-xhQ&_nc_tpa=Q5bMBQIEZl2a46bU2S7DeKcsNHEGtb62Hc5kbtAC75FsOWt46pJSVdZT7XfAsHR2zYD9Avpz7bWYPDD0ow&oh=00_AQGPTWFCUYMVjwEni_GirmU46B5m8f3-UrJIgVMshbVE5g&oe=6A952EA5",
+      "likes": 180,
+      "comments": 21,
+      "views": 5766,
+      "reach": 4180,
+      "saves": 15,
+      "shares": 9
+    },
+    {
+      "id": "18004127276910038",
+      "permalink": "https://www.instagram.com/reel/DXmgkeUkXfC/",
+      "timestamp": "2026-04-26T16:33:04+0000",
+      "caption": "survived moving. (and not having a kitchen table the past 2 years) but v grateful to my broker @justinw.re for making the nyc apartment hunt soo much easier. cheers to a new chapter and to working with the best 🥂✨",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.71878-15/682583715_999730002627444_8590167134387644376_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=t1EAICxvBYIQ7kNvwE6HU7o&_nc_oc=Adrt1pDlZpDy2f72mBwMU1_dSU7QlLYl4wNkpU52ZA9ml7UAE5i2L3my6r6gULJSAnA&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=merA6tUscPb3X3mDbd-xhQ&_nc_tpa=Q5bMBQLNhMqBaTHYh5D2b7-KsQYRDJs2P1nvFBaha6IrT3xBMsyasbvWwzaoNeDEEpwEDS6jYJ-FPwraug&oh=00_AQF678PT1EXZEogvFifpAOOS4-1_Qhr0ZtZulcwXsmhaGQ&oe=6A954386",
+      "likes": 490,
+      "comments": 81,
+      "views": 8940,
+      "reach": 4848,
+      "saves": 28,
+      "shares": 21
+    },
+    {
+      "id": "17943678482996709",
+      "permalink": "https://www.instagram.com/reel/DWzR3xnkZOA/",
+      "timestamp": "2026-04-06T19:03:59+0000",
+      "caption": "techno was invented by black people. and more specifically, my dad: Eddie Fowlkes. my biggest inspiration. i’m so grateful to learn from you ❤️",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.71878-15/661708810_1364601165503761_4003863174011621811_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=hfdh86OM7VEQ7kNvwF8R6qz&_nc_oc=AdpbB39PHObcHsZw0dFG17rsbohVETiBH7IuNtQYlr425xHQLj5Qfdq_iT8at2j7AXU&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=merA6tUscPb3X3mDbd-xhQ&_nc_tpa=Q5bMBQLnwN6OggR5qat2-lWTh036aFXB_Z34ejNYEFKxKbDpHuzz_44IHY5vNP73VQWYFBrMaXDWc-O_nw&oh=00_AQFAG6cWJsFLDdgafIEM2AWOKTUhDSYCLNOK51sXAa3YoA&oe=6A953F06",
+      "likes": 1086,
+      "comments": 235,
+      "views": 14517,
+      "reach": 8603,
+      "saves": 90,
+      "shares": 385
+    },
+    {
+      "id": "18061704125371234",
+      "permalink": "https://www.instagram.com/p/DWUafD2EbEg/",
+      "timestamp": "2026-03-25T19:21:36+0000",
+      "caption": "what an honor 🫶🏽 grateful to @fortuneandforks and @ronzacapaca for bringing together some of NYC’s most inspiring & innovative women to close out women’s history month 💞 the room was everything and moreee",
+      "mediaType": "CAROUSEL_ALBUM",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/656293049_18576848710057149_4378135734774893121_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=wFVd3EOTqvIQ7kNvwF5rDvD&_nc_oc=AdoS_qq9SDyrDtumG9Tpa_ONOmGVdNOLS-GRCdRb2aABNQHHwLli1LEh3iVGmyScHLM&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=merA6tUscPb3X3mDbd-xhQ&oh=00_AQEmDfuyPZJvxB5rwhqLEChWsuQ4YUbo7vJOXkozHm_nyg&oe=6A953D85",
+      "likes": 623,
+      "comments": 128,
+      "views": 11290,
+      "reach": 4219,
+      "saves": 19,
+      "shares": 7
+    },
+    {
+      "id": "18068543183294901",
+      "permalink": "https://www.instagram.com/reel/DWPRkxwEayz/",
+      "timestamp": "2026-03-23T19:42:15+0000",
+      "caption": "corporate burnout is real….and he had a way of turning my breakdown into a breakthrough 🥹🤍 [circa 2025]",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/660092635_18580142500057149_7049082457812875479_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9N8PTe9ethEQ7kNvwE6xixT&_nc_oc=Adq2BF0V7KYTLC-vwBPmFx-LJjyyLMZYcKKdqxUpJcYLUcUn7oaH228kHmuQzLLqBPQ&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=merA6tUscPb3X3mDbd-xhQ&_nc_tpa=Q5bMBQKJuYSzH_BMuedupQQhP8QGGX2HPy7yfpZxu7aWrSr_hqugEwp1rgLHC3_iBoa787U-Fr3uQtBiJQ&oh=00_AQGtRyjDWJ_4FML8hdI5epgC_zo86lfk9gnsstT7bQkiSg&oe=6A9537F8",
+      "likes": 1563,
+      "comments": 149,
+      "views": 22209,
+      "reach": 13439,
+      "saves": 142,
+      "shares": 152
+    },
+    {
+      "id": "18098075149966282",
+      "permalink": "https://www.instagram.com/reel/DWHgpjokSzv/",
+      "timestamp": "2026-03-20T19:07:37+0000",
+      "caption": "i moved to new york and was in for a rude awakening💔 i hated to admit it. how could i be living my dream and feel like this? [circa 2024]",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/659750117_18580143076057149_8386617188920356680_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RpQ4KYymnsIQ7kNvwEbeuY5&_nc_oc=Ado3S4nN4vz9TtrHq859UyB9dbiCep71o61uumT1XEEUE_WevI7-mH9bBzOANrlsSbE&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=merA6tUscPb3X3mDbd-xhQ&_nc_tpa=Q5bMBQIk1dqNRMYuWykXLq0RhtCQZlpI5QZJFk7osXAOey9FBKiorAoJnM5VXKnXIU36KmWBuT6EZCHtDw&oh=00_AQH31GrTm11Q3hxUGGsXfZxJxDhW3HHkYuL4o25ZG_RDWg&oe=6A954C49",
+      "likes": 1657,
+      "comments": 169,
+      "views": 29569,
+      "reach": 15866,
+      "saves": 161,
+      "shares": 168
+    },
+    {
+      "id": "17871176670454204",
+      "permalink": "https://www.instagram.com/reel/DVjP9pCEeUF/",
+      "timestamp": "2026-03-06T17:21:21+0000",
+      "caption": "once you see it, you can’t unsee it. thankful to my parents for letting me crash for a year ❤️ [circa 2024]",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/659727601_18580141612057149_5304353699250570464_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9yhrHfKe6k0Q7kNvwE6dZZF&_nc_oc=AdoNy75DdLb-sWGkT8PSnwTNhKGmm1zzRss9GggFS9qUhcDDjU5XfzP0MAUhumeuPtk&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=merA6tUscPb3X3mDbd-xhQ&_nc_tpa=Q5bMBQJ41Hr-mrmxrFkNYXtEA3beCEH4ECqmWbtcEg5HeXs8zC17srd1iqFMY8u17dedVyErwyP9jwbZQQ&oh=00_AQGbrclBaPwxJ6PSqg99hwd-g88bjLOmVjkaPOHK-fmM7A&oe=6A9546B8",
+      "likes": 2322,
+      "comments": 134,
+      "views": 35928,
+      "reach": 18628,
+      "saves": 324,
+      "shares": 307
+    }
+  ]
+}

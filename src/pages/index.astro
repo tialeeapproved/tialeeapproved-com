@@ -1,0 +1,274 @@
+---
+import '../styles/global.css';
+import { site, hero, pillars, brands, services, contact, mailto } from '../data/content';
+import { readSnapshot } from '../lib/store';
+import { DATA_ACCESS_EXPIRES } from '../lib/instagram';
+
+const { data, source } = await readSnapshot();
+
+const n = (v: number) => v.toLocaleString('en-US');
+const compact = (v: number) =>
+  v >= 1000 ? `${(v / 1000).toFixed(v >= 10_000 ? 0 : 1)}K` : String(v);
+
+const synced = new Date(data.syncedAt).toLocaleDateString('en-US', {
+  month: 'short', day: 'numeric', year: 'numeric',
+});
+
+// Gender labels come back as F / M / U.
+const genderLabel: Record<string, string> = { F: 'Women', M: 'Men', U: 'Unspecified' };
+const genderTotal = data.gender.reduce((s, g) => s + g.value, 0);
+const women = data.gender.find((g) => g.label === 'F')?.value ?? 0;
+
+const ageTotal = data.age.reduce((s, a) => s + a.value, 0);
+// Drop buckets under 1% — they add rows without adding information, and the
+// 13-17 bucket in particular is noise a brand should not be reading into.
+const ageRows = data.age.filter((a) => a.value / ageTotal >= 0.01);
+const ageMax = Math.max(...ageRows.map((a) => a.value), 1);
+const cityMax = Math.max(...data.cities.map((c) => c.value), 1);
+const usShare = (() => {
+  const total = data.countries.reduce((s, c) => s + c.value, 0);
+  const us = data.countries.find((c) => c.label === 'US')?.value ?? 0;
+  return total ? Math.round((us / total) * 100) : 0;
+})();
+
+// Best recent post, by reach — the strongest single piece of evidence here.
+const best = [...data.media].sort((a, b) => b.reach - a.reach)[0];
+const bestReachVsFollowers = best && data.followers
+  ? Math.round((best.reach / data.followers) * 100)
+  : 0;
+
+const topCities = data.cities.slice(0, 6);
+// A media kit leads with the best work, not the most recent.
+const work = [...data.media].filter((m) => m.reach > 0).sort((a, b) => b.reach - a.reach).slice(0, 8);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{site.title}</title>
+    <meta name="description" content={site.description} />
+    <meta property="og:title" content={site.title} />
+    <meta property="og:description" content={site.description} />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={`https://${site.domain}/`} />
+  </head>
+
+  <body>
+    <header class="masthead">
+      <div class="wrap">
+        <a class="wordmark" href="#top">TIALEEAPPROVED</a>
+        <span class="sync">
+          <span class="dot" aria-hidden="true"></span>
+          {source === 'live' ? 'LIVE' : 'SNAPSHOT'} · {synced.toUpperCase()}
+        </span>
+        <nav class="nav">
+          <a href="#audience">Audience</a>
+          <a href="#pillars">Pillars</a>
+          <a href="#work">Work</a>
+          <a href="#receipts">Receipts</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- 01 HERO ------------------------------------------------------- -->
+      <section class="hero">
+        <div class="wrap">
+          <div class="label">{hero.eyebrow}</div>
+          <h1>{hero.headline}</h1>
+          <p>{hero.sub}</p>
+
+          <div class="headline-stats">
+            <div class="stat">
+              <div class="v">{data.engagementRate}%</div>
+              <div class="k">Engagement rate</div>
+              <div class="note">Interactions ÷ reach, 28 days</div>
+            </div>
+            <div class="stat">
+              <div class="v">{n(data.followers)}</div>
+              <div class="k">Followers</div>
+              <div class="note">{usShare}% United States</div>
+            </div>
+            <div class="stat">
+              <div class="v">{compact(data.views28)}</div>
+              <div class="k">Views · 28 days</div>
+              <div class="note">{compact(data.reach28)} accounts reached</div>
+            </div>
+            {best && (
+              <div class="stat">
+                <div class="v">{bestReachVsFollowers}%</div>
+                <div class="k">Best post reach</div>
+                <div class="note">As a share of follower count</div>
+              </div>
+            )}
+          </div>
+        </div>
+      </section>
+
+      <!-- 02 AUDIENCE --------------------------------------------------- -->
+      <section class="section" id="audience">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="section-num">02</span>
+            <span class="section-title">Audience</span>
+            <span class="rule"></span>
+            <span class="section-tag">Instagram Graph API · synced {synced}</span>
+          </div>
+
+          <div class="panels">
+            <div class="panel">
+              <h3 class="label">Age</h3>
+              {ageRows.map((a) => (
+                <div class="bar-row">
+                  <span class="bl">{a.label}</span>
+                  <span class="track"><span class="fill" style={`width:${(a.value / ageMax) * 100}%`}></span></span>
+                  <span class="bv">{Math.round((a.value / ageTotal) * 100)}%</span>
+                </div>
+              ))}
+            </div>
+
+            <div class="panel">
+              <h3 class="label">Top cities</h3>
+              {topCities.map((c) => (
+                <div class="bar-row">
+                  <span class="bl" style="width:auto;flex:1">{c.label}</span>
+                  <span class="track" style="flex:0 0 70px"><span class="fill" style={`width:${(c.value / cityMax) * 100}%`}></span></span>
+                  <span class="bv">{n(c.value)}</span>
+                </div>
+              ))}
+            </div>
+
+            <div class="panel">
+              <h3 class="label">Behaviour · 28 days</h3>
+              <div class="bar-row"><span class="bl" style="width:auto;flex:1">Saves</span><span class="bv">{n(data.saves28)}</span></div>
+              <div class="bar-row"><span class="bl" style="width:auto;flex:1">Shares</span><span class="bv">{n(data.shares28)}</span></div>
+              <div class="bar-row"><span class="bl" style="width:auto;flex:1">Interactions</span><span class="bv">{n(data.interactions28)}</span></div>
+              <div class="bar-row"><span class="bl" style="width:auto;flex:1">Profile views</span><span class="bv">{n(data.profileViews28)}</span></div>
+              <h3 class="label" style="margin-top:22px">Gender</h3>
+              {data.gender.map((g) => (
+                <div class="bar-row">
+                  <span class="bl" style="width:auto;flex:1">{genderLabel[g.label] ?? g.label}</span>
+                  <span class="bv">{Math.round((g.value / genderTotal) * 100)}%</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 03 PILLARS ---------------------------------------------------- -->
+      <section class="section" id="pillars">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="section-num">03</span>
+            <span class="section-title">Pillars</span>
+            <span class="rule"></span>
+            <span class="section-tag">Three lanes</span>
+          </div>
+          <div class="pillars">
+            {pillars.map((p) => (
+              <div class="pillar">
+                <div class="ch label">CH {p.channel} · {p.name}</div>
+                <h3>{p.headline}</h3>
+                <p class={p.body.startsWith('TODO') ? 'todo' : ''}>{p.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- 04 WORK ------------------------------------------------------- -->
+      <section class="section" id="work">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="section-num">04</span>
+            <span class="section-title">Work</span>
+            <span class="rule"></span>
+            <span class="section-tag">Numbers pulled per post</span>
+          </div>
+          <div class="grid">
+            {work.map((m) => (
+              <a class="card" href={m.permalink} target="_blank" rel="noopener noreferrer">
+                <div class="media">
+                  {/*
+                    Instagram CDN thumbnail URLs are signed and expire. The daily cron
+                    refreshes them, so the live path stays valid; if one does 404 we hide
+                    the broken image and let the neutral tile show through rather than
+                    rendering a broken-image icon.
+                    v2: have the cron mirror thumbnails into Vercel Blob so they never rot.
+                  */}
+                  {m.thumbnail && (
+                    <img
+                      src={m.thumbnail}
+                      alt=""
+                      loading="lazy"
+                      decoding="async"
+                      onerror="this.style.display='none'"
+                    />
+                  )}
+                </div>
+                <div class="meta">
+                  <div><b>{compact(m.views)}</b><span>Views</span></div>
+                  <div><b>{n(m.saves)}</b><span>Saves</span></div>
+                  <div><b>{n(m.shares)}</b><span>Shares</span></div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- 05 RECEIPTS --------------------------------------------------- -->
+      <section class="section" id="receipts">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="section-num">05</span>
+            <span class="section-title">Receipts</span>
+            <span class="rule"></span>
+            <span class="section-tag">Brands · what it produced</span>
+          </div>
+          <div class="receipts">
+            {brands.map((b) => (
+              <div class="receipt">
+                <div class="nm">{b.name}</div>
+                <div class={`dl ${b.delivered.startsWith('TODO') ? 'todo' : ''}`}>{b.delivered}</div>
+                <div class={`rs ${b.result.startsWith('TODO') ? 'todo' : ''}`}>{b.result}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- 06 CONTACT ---------------------------------------------------- -->
+      <section class="section contact" id="contact">
+        <div class="wrap">
+          <h2>{contact.headline}</h2>
+          <p>{contact.body}</p>
+          <div class="services">
+            {services.map((s) => (
+              <span class="chip">{s.name} <span>· {s.note}</span></span>
+            ))}
+          </div>
+          <a class="cta" href={mailto()}>{site.email} →</a>
+        </div>
+      </section>
+
+      <div class="wrap">
+        <div class="foot">
+          <span>{site.name} · {site.location}</span>
+          <a href={site.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
+          <span class="sp">
+            Figures from the Instagram Graph API · synced {synced}
+            {source === 'snapshot' && ' · fallback'}
+          </span>
+        </div>
+      </div>
+    </main>
+
+    <!-- Data access for the Meta app expires {DATA_ACCESS_EXPIRES}; re-authorize before then. -->
+  </body>
+</html>
