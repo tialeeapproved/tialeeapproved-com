@@ -104,20 +104,22 @@ export function mailto(): string {
 }
 
 /**
- * Your own hosted video files, keyed by Instagram media id.
+ * Your own clips, keyed by Instagram media id.
  *
- * WHY THIS EXISTS: Meta only returns a direct mp4 for some Reels — currently 3 of
- * your 12 — so the API alone can't autoplay the whole grid. Anything listed here
- * takes priority over the API's URL and never expires.
+ * WHY THIS EXISTS: Meta only returns a direct mp4 for some Reels, and those URLs
+ * expire. A file in public/clips/ always plays and never rots, so anything listed
+ * here wins over whatever the API hands back.
  *
  * TO ADD ONE:
- *   1. Export the reel as mp4 (keep it under ~3MB — trim to the best 5-8 seconds,
- *      it's a preview loop, not the full post)
- *   2. Upload to Vercel Blob, copy the URL it returns
- *   3. Add a line below: '<media id>': 'https://…blob.vercel-storage.com/clip.mp4'
+ *   1. Drop the export in public/clips/ (any size, any name, full length is fine)
+ *   2. Claude re-encodes it for web and adds a line here
  *
- * Media ids are in src/data/snapshot.json, next to each post's numbers.
+ * Media ids are in src/data/snapshot.json next to each post's numbers.
  */
 export const videoOverrides: Record<string, string> = {
-  // '17903323659391284': 'https://…public.blob.vercel-storage.com/clip.mp4',
+  // Detroit Foundation Hotel — 10 Jun 2026
+  '18209175244337967': '/clips/dfh.mp4',
+  // EGO Home Mattress — 19 May 2026
+  '17909357355408642': '/clips/ego.mp4',
+  // TODO: cec-ch7.mp4 is encoded and sitting in public/clips/ — needs its post id
 };

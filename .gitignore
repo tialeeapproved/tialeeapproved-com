@@ -5,3 +5,8 @@ dist/
 .env
 .env*.local
 .DS_Store
+
+# Source video originals — huge, never commit. Only the encoded .mp4 ships.
+public/clips/*.MOV
+public/clips/*.mov
+public/clips/*.MP4.original
