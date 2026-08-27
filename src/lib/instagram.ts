@@ -87,6 +87,29 @@ function breakdown(payload: any): Demographic[] {
     .sort((a: Demographic, b: Demographic) => b.value - a.value);
 }
 
+/**
+ * Walk back through the feed, not just the newest page.
+ *
+ * The best-performing post is often months old — pulling only the most recent
+ * posts hid a 144K-reach post behind an 18K one. 50 covers well past the
+ * 18-month window the page renders.
+ */
+async function fetchMedia(igId: string): Promise<{ data: any[] }> {
+  const fields =
+    'id,permalink,timestamp,caption,media_type,thumbnail_url,media_url,like_count,comments_count';
+  const out: any[] = [];
+  let after: string | undefined;
+  for (let page = 0; page < 3 && out.length < 50; page++) {
+    const params: Record<string, string> = { fields, limit: '25' };
+    if (after) params.after = after;
+    const r = await graph(`${igId}/media`, params);
+    out.push(...(r.data ?? []));
+    after = r.paging?.cursors?.after;
+    if (!after || !r.data?.length) break;
+  }
+  return { data: out.slice(0, 50) };
+}
+
 /** Pull everything the page needs in one pass. */
 export async function fetchSnapshot(): Promise<Snapshot> {
   const igId = env('IG_USER_ID');
@@ -110,10 +133,7 @@ export async function fetchSnapshot(): Promise<Snapshot> {
     graph(`${igId}/insights`, { metric: 'follower_demographics', period: 'lifetime', metric_type: 'total_value', breakdown: 'gender' }),
     graph(`${igId}/insights`, { metric: 'follower_demographics', period: 'lifetime', metric_type: 'total_value', breakdown: 'city' }),
     graph(`${igId}/insights`, { metric: 'follower_demographics', period: 'lifetime', metric_type: 'total_value', breakdown: 'country' }),
-    graph(`${igId}/media`, {
-      fields: 'id,permalink,timestamp,caption,media_type,thumbnail_url,media_url,like_count,comments_count',
-      limit: '12',
-    }),
+    fetchMedia(igId),
   ]);
 
   const totalOf = (name: string): number =>

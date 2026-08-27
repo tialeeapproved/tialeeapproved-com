@@ -93,15 +93,16 @@ break — it just stops updating.
 
 ---
 
-## Still to fill in
+## Content source
 
-Everything below is marked `TODO` in `src/data/content.ts` and renders in orange
-with a dashed underline on the page, so nothing ships silently unfinished.
+Positioning, credentials, the Corporate Exit Chronicles case study and the
+cross-platform numbers all come from Tia's own media kit deck (Aug 2026), held in
+`src/data/content.ts`.
 
-- [ ] **Music pillar** — one sentence on what the music content actually is
-- [ ] **Six brand receipts** — what was delivered and what it produced, for Meta,
-      Insta360, SailGP, iHerb, Detroit Foundation Hotel, EGO Home Mattress
-- [ ] A testimonial, if one exists — would be the strongest thing on the page
+**Where the deck and the API disagree, the API wins for Instagram and the deck wins
+for everything the API cannot see.** TikTok, LinkedIn and YouTube are self-reported
+and labelled as such on the page — only Instagram carries a LIVE badge. Update those
+three by hand in `platforms` when they move.
 
 ## Known gaps
 
@@ -109,12 +110,13 @@ with a dashed underline on the page, so nothing ships silently unfinished.
   them so the live path stays valid, but images in the committed snapshot will rot.
   Broken ones hide themselves rather than showing a broken-image icon. Proper fix:
   have the cron mirror thumbnails into Vercel Blob.
-- **Autoplay is live, but only on the posts Meta gives a video URL for.** The Graph
-  API returns a direct mp4 for 3 of 12 Reels — Meta has been withdrawing `media_url`
-  for Reels. Those clips autoplay muted, loop, and pause when scrolled out of view.
-  The rest show their poster frame. To autoplay one of those, export the mp4, upload
-  it to Vercel Blob, and add the URL to `videoOverrides` in `src/data/content.ts`
-  keyed by media id — a hosted file always wins over Meta's URL and never expires.
+- **Autoplay comes from two places.** Meta returns a direct mp4 for only some Reels
+  and those URLs expire, so which posts it covers changes. Files in `public/clips/`
+  never expire and always win — add them to `videoOverrides` keyed by media id.
+  All clips play muted, loop, and pause when scrolled out of view.
+- **Work is ranked by reach over an 18-month window.** Older posts carry incoherent
+  legacy metrics (a 2022 post reports 1.78M views against 1,058 reach), which a brand
+  would rightly question. The window keeps the section defensible.
 - **Visual design is deliberately plain.** Structure carries the "digital files" idea;
   decoration comes later. Restyling should only mean changing tokens in
   `global.css`, not touching markup.

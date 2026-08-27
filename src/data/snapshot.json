@@ -1,23 +1,23 @@
 {
-  "syncedAt": "2026-08-26T23:19:35.403Z",
+  "syncedAt": "2026-08-27T07:44:49.679Z",
   "username": "tialeeapproved",
-  "followers": 12574,
+  "followers": 12573,
   "posts": 70,
-  "reach28": 17227,
-  "views28": 58751,
-  "profileViews28": 1954,
-  "interactions28": 1075,
+  "reach28": 17220,
+  "views28": 58721,
+  "profileViews28": 1927,
+  "interactions28": 1078,
   "saves28": 15,
   "shares28": 23,
-  "engagementRate": 6.2,
+  "engagementRate": 6.3,
   "age": [
     {
       "label": "25-34",
-      "value": 5417
+      "value": 5415
     },
     {
       "label": "35-44",
-      "value": 3160
+      "value": 3161
     },
     {
       "label": "45-54",
@@ -25,7 +25,7 @@
     },
     {
       "label": "18-24",
-      "value": 537
+      "value": 535
     },
     {
       "label": "55-64",
@@ -37,51 +37,51 @@
     },
     {
       "label": "13-17",
-      "value": 20
+      "value": 19
     }
   ],
   "gender": [
     {
       "label": "F",
-      "value": 5871
+      "value": 5870
     },
     {
       "label": "M",
-      "value": 3527
+      "value": 3523
     },
     {
       "label": "U",
-      "value": 1904
+      "value": 1905
     }
   ],
   "cities": [
     {
       "label": "Detroit, Michigan",
-      "value": 830
+      "value": 828
     },
     {
       "label": "New York, New York",
-      "value": 749
+      "value": 743
     },
     {
       "label": "Chicago, Illinois",
-      "value": 250
+      "value": 254
     },
     {
       "label": "Los Angeles, California",
-      "value": 208
+      "value": 206
     },
     {
       "label": "Atlanta, Georgia",
-      "value": 183
+      "value": 187
     },
     {
       "label": "Houston, Texas",
-      "value": 164
+      "value": 167
     },
     {
       "label": "Southfield, Michigan",
-      "value": 139
+      "value": 140
     },
     {
       "label": "Charlotte, North Carolina",
@@ -93,7 +93,7 @@
     },
     {
       "label": "Philadelphia, Pennsylvania",
-      "value": 92
+      "value": 90
     },
     {
       "label": "Dallas, Texas",
@@ -101,27 +101,23 @@
     },
     {
       "label": "Oakland, California",
-      "value": 62
+      "value": 63
     },
     {
       "label": "Columbus, Ohio",
-      "value": 61
+      "value": 62
     },
     {
       "label": "Baltimore, Maryland",
       "value": 60
     },
     {
-      "label": "Warren, Michigan",
-      "value": 54
-    },
-    {
       "label": "San Francisco, California",
-      "value": 53
+      "value": 52
     },
     {
-      "label": "Farmington Hills, Michigan",
-      "value": 48
+      "label": "Warren, Michigan",
+      "value": 51
     },
     {
       "label": "Redford, Michigan",
@@ -132,11 +128,15 @@
       "value": 46
     },
     {
-      "label": "Memphis, Tennessee",
-      "value": 42
+      "label": "Farmington Hills, Michigan",
+      "value": 45
     },
     {
       "label": "Clinton Township, Michigan",
+      "value": 43
+    },
+    {
+      "label": "Memphis, Tennessee",
       "value": 42
     },
     {
@@ -144,11 +144,11 @@
       "value": 42
     },
     {
-      "label": "Lansing, Michigan",
-      "value": 42
+      "label": "Jacksonville, Florida",
+      "value": 41
     },
     {
-      "label": "Jacksonville, Florida",
+      "label": "Lansing, Michigan",
       "value": 41
     },
     {
@@ -156,19 +156,19 @@
       "value": 41
     },
     {
-      "label": "Fort Worth, Texas",
+      "label": "Troy, Michigan",
       "value": 39
     },
     {
-      "label": "Sterling Heights, Michigan",
-      "value": 38
-    },
-    {
-      "label": "Troy, Michigan",
-      "value": 36
+      "label": "Fort Worth, Texas",
+      "value": 37
     },
     {
       "label": "West Bloomfield Township, Michigan",
+      "value": 36
+    },
+    {
+      "label": "Sterling Heights, Michigan",
       "value": 35
     },
     {
@@ -180,11 +180,7 @@
       "value": 34
     },
     {
-      "label": "Nashville, Tennessee",
-      "value": 34
-    },
-    {
-      "label": "Boston, Massachusetts",
+      "label": "Miami, Florida",
       "value": 34
     },
     {
@@ -192,23 +188,19 @@
       "value": 33
     },
     {
-      "label": "Canton, Michigan",
-      "value": 32
+      "label": "Nashville, Tennessee",
+      "value": 33
     },
     {
       "label": "Oak Park, Michigan",
       "value": 32
     },
     {
-      "label": "Royal Oak, Michigan",
+      "label": "Canton, Michigan",
       "value": 31
     },
     {
-      "label": "Pontiac, Michigan",
-      "value": 31
-    },
-    {
-      "label": "Miami, Florida",
+      "label": "Boston, Massachusetts",
       "value": 31
     },
     {
@@ -216,30 +208,38 @@
       "value": 30
     },
     {
+      "label": "Royal Oak, Michigan",
+      "value": 29
+    },
+    {
+      "label": "Pontiac, Michigan",
+      "value": 29
+    },
+    {
+      "label": "Eastpointe, Michigan",
+      "value": 28
+    },
+    {
       "label": "Jersey City, New Jersey",
       "value": 28
     },
     {
-      "label": "Eastpointe, Michigan",
-      "value": 27
-    },
-    {
       "label": "San Diego, California",
-      "value": 27
+      "value": 28
     },
     {
       "label": "Cincinnati, Ohio",
       "value": 26
     },
     {
-      "label": "Romulus, Michigan",
+      "label": "Raleigh, North Carolina",
       "value": 26
     }
   ],
   "countries": [
     {
       "label": "US",
-      "value": 10441
+      "value": 10438
     },
     {
       "label": "CA",
@@ -263,11 +263,15 @@
     },
     {
       "label": "JM",
-      "value": 30
+      "value": 29
     },
     {
       "label": "IN",
       "value": 29
+    },
+    {
+      "label": "NL",
+      "value": 20
     },
     {
       "label": "DE",
@@ -275,10 +279,6 @@
     },
     {
       "label": "BR",
-      "value": 19
-    },
-    {
-      "label": "NL",
       "value": 19
     },
     {
@@ -311,7 +311,7 @@
     },
     {
       "label": "ES",
-      "value": 13
+      "value": 12
     },
     {
       "label": "KE",
@@ -398,15 +398,11 @@
       "value": 4
     },
     {
-      "label": "TW",
+      "label": "EC",
       "value": 3
     },
     {
-      "label": "LR",
-      "value": 3
-    },
-    {
-      "label": "CL",
+      "label": "AG",
       "value": 3
     },
     {
@@ -415,6 +411,10 @@
     },
     {
       "label": "LB",
+      "value": 3
+    },
+    {
+      "label": "VN",
       "value": 3
     }
   ],
@@ -425,11 +425,11 @@
       "timestamp": "2026-06-11T20:46:03+0000",
       "caption": "he’s the first person i call for everything, including record shopping using my @RayBanMeta glasses 💖 they are the best Father’s Day gift i could give him (and yes i blocked my dad from seeing this so everyone behave 🤫) #RayBanMetaPartner #ad",
       "mediaType": "VIDEO",
-      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/721340065_18598163626057149_4618696270072252916_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=R3N0uOU-4AkQ7kNvwHt0SFG&_nc_oc=Adol1BQE8NGbveUU5mZnFyY7vAKRw7UfvLycE4iyFwteQcdgV2HXMyHjuDVD5Nm5e-w&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=xy261wRDifzQo-Al37Hxxw&_nc_tpa=Q5bMBQKUSD2iUo_qHF5ThcbTQFuBtUGsxhUSmYtcN8b9PoP0NnUqi5SjoLn1St-6U3GsQeqMJLvmf5cnlQ&oh=00_AQEJVTBVe5NvBW3PDHui_2oezWggvepm_9hen01uRUrnbw&oe=6A954081",
-      "videoUrl": "https://scontent-ord5-1.cdninstagram.com/o1/v/t2/f2/m86/AQMLOMScodiLUyH9HlebZ9N-FBRQ1RZyCelXIfvGKUSpwA6Ub2QLV1p4Fg-gOFZEUeSYhldcZvUEiJ3Xb7dfeAsZ2n_Cs86c5cAQtlQ.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_ohc=-M742S-_MgIQ7kNvwHathXQ&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTI2MTQ0Mzc3OTE4NzkwOCwiYXNzZXRfYWdlX2RheXMiOjc2LCJ2aV91c2VjYXNlX2lkIjoxMTA1NywiZHVyYXRpb25fcyI6NDEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=47c9e11ed82c1ff8&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81MTREODg3QjQ2Q0ZBNUU3MkMxOTcxRjEwODU2NkZBOF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzg1NDUwMDMyMTQ1MUI4QUE0NjUwRjFDODYzQTVDOUFGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaI0-bF2NG9BBUCKAJDMywXQESIcrAgxJwYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeKsAQA&_nc_gid=xy261wRDifzQo-Al37Hxxw&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AQGExZ3ktIN0yale_Hg8mjecTFqVpG2JcqKpX1CQSavJxg&oe=6A91591E",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/721340065_18598163626057149_4618696270072252916_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=R3N0uOU-4AkQ7kNvwGL4NmT&_nc_oc=AdoVyoNxI7q1hTjeeqiGxTdlIC1DH8KDEAGSJ_ffoF3IoZVezF_w8Tjv2C8KbWqFytw&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQJO4If44tFe0QeKCCwAK5Mcfe_St8U0mannKIbEQv4fif8BmORrm1VDzRvi7hzIAOZoahdJj8fUGA&oh=00_AQFIjlXcJaZO99RRiINrGsojcyYlmqo9oIsHHeeKrfRs0g&oe=6A95B101",
+      "videoUrl": "https://scontent-ord5-1.cdninstagram.com/o1/v/t2/f2/m86/AQMLOMScodiLUyH9HlebZ9N-FBRQ1RZyCelXIfvGKUSpwA6Ub2QLV1p4Fg-gOFZEUeSYhldcZvUEiJ3Xb7dfeAsZ2n_Cs86c5cAQtlQ.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_ohc=-M742S-_MgIQ7kNvwFfw9a6&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTI2MTQ0Mzc3OTE4NzkwOCwiYXNzZXRfYWdlX2RheXMiOjc2LCJ2aV91c2VjYXNlX2lkIjoxMTA1NywiZHVyYXRpb25fcyI6NDEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=47c9e11ed82c1ff8&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81MTREODg3QjQ2Q0ZBNUU3MkMxOTcxRjEwODU2NkZBOF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzg1NDUwMDMyMTQ1MUI4QUE0NjUwRjFDODYzQTVDOUFGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaI0-bF2NG9BBUCKAJDMywXQESIcrAgxJwYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeKsAQA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AQFrKahD08SRHsvYFnVnnULS05tnpAgsc4Dgo_tO21NK7Q&oe=6A91C99E",
       "likes": 298,
       "comments": 29,
-      "views": 5481,
+      "views": 5488,
       "reach": 3690,
       "saves": 8,
       "shares": 12
@@ -440,12 +440,12 @@
       "timestamp": "2026-06-10T19:41:08+0000",
       "caption": "closed out my fav daddy daughter weekend at @detroitfoundationhotel. detroit, i’ll be back 🥹❤️",
       "mediaType": "VIDEO",
-      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/721464223_18597891799057149_8317529878561234722_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ZGjcI3B-KvUQ7kNvwHz_YpI&_nc_oc=AdrAgFEESPAG4iSwQilfeUa1cwpdUdeJVDownoVMpaIWxkzc7R58cjbTRdwDxRW9u50&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=xy261wRDifzQo-Al37Hxxw&_nc_tpa=Q5bMBQIy-2pQeI5NA26cnZcNF9nBvKskMqUpnzIAgZvejVDDh2mPyLXLrfm25t3vDt4j-e9uwuC88r12Ew&oh=00_AQGIzAbm73vcelphhBs1_f2pG37-TwuPbip41zTtsAGS0w&oe=6A954894",
+      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/721464223_18597891799057149_8317529878561234722_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ZGjcI3B-KvUQ7kNvwGIYF9z&_nc_oc=Adr9s-4cr10pM9de1yNziRgCAUsARG-q0GmO9jb9EcOiTBqw_y6h_Qe5EWQ-XH3DOw4&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQJmHrMVuse49-bftSt3KqVaH9OhCTbXSlDB3huAn9_5_C5QBaG5NU9BZHx9UO8Lk1Ke4UjUDP32pA&oh=00_AQHRQPGPTX2DJn1UiPV__YwgWqP4pQH1Mta46exXFg41yA&oe=6A95B914",
       "videoUrl": null,
       "likes": 946,
       "comments": 92,
-      "views": 15898,
-      "reach": 10445,
+      "views": 15904,
+      "reach": 10454,
       "saves": 160,
       "shares": 231
     },
@@ -455,11 +455,11 @@
       "timestamp": "2026-06-04T19:02:47+0000",
       "caption": "it’s not Movement without a pregame 🤭",
       "mediaType": "VIDEO",
-      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.71878-15/714955370_1570020348026061_939591688128781126_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=vUIN6FjbLQAQ7kNvwFZhGT7&_nc_oc=Adr82WRCvohposEqzlgFtckibiQDVvuxKitsIWR4zPUjVtDbgTXrxpe9c7XEt3F2Z10&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=xy261wRDifzQo-Al37Hxxw&_nc_tpa=Q5bMBQKdiDWbZ79M9KYEHjHLGxTVNk2Ds5j6oJZmPsTcNQgbW6j3Gz6d2WC67NrH3bpBcLfk0lJ9s0pWUg&oh=00_AQF91ssA0XEm2av8JCXKpKj6cVGZ4zA-Y59S1ev_I82yYA&oe=6A954263",
+      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.71878-15/714955370_1570020348026061_939591688128781126_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=vUIN6FjbLQAQ7kNvwGNOU0E&_nc_oc=AdpQUemqvA3TxjbkzYX95Rw1OKq71-bVsD7wbi_WAtnWMN0bHcL0y6U00qmHC-q4yA0&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQI5rIrzRokUxiQljkewXfHbk25j1RJZ79lu5u_HZiMDnPNJcSilS0hJf6DBrJxglfljbWoREtDFrA&oh=00_AQEx6tQORUhO6D0YXrrdA2uNXHrhissgS0DtMInwX5FYZg&oe=6A95B2E3",
       "videoUrl": null,
       "likes": 154,
       "comments": 21,
-      "views": 3742,
+      "views": 3746,
       "reach": 2450,
       "saves": 2,
       "shares": 4
@@ -470,11 +470,11 @@
       "timestamp": "2026-06-03T19:02:27+0000",
       "caption": "i love coming back to my city ❤️ had an extra special homecoming for Movement weekend with @detroitfoundationhotel let’s see what we had in store for our daddy daughter weekend ☺️",
       "mediaType": "VIDEO",
-      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/717228712_18595912204057149_8878173590791588188_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9E8d9JoksBwQ7kNvwFLsvsc&_nc_oc=AdohTu0AuiuUyif1cgp8k70xVXRReLwmOdPHCGJkFEu7IrM6qQ8tEzk5lqT_c9kzpJU&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=xy261wRDifzQo-Al37Hxxw&_nc_tpa=Q5bMBQIyw5aimH5_lVNWqVhZxawEnOwlVeg7DM-xmqpdymEIAYbjs9o3evyihMFCPrwaJxEYLFs7UJeTmg&oh=00_AQH06GKQmIWzs8sdmp0EdgqpvrvTR8hCyp0B2VK-suI4hQ&oe=6A954886",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/717228712_18595912204057149_8878173590791588188_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9E8d9JoksBwQ7kNvwGQyizZ&_nc_oc=AdqB7fE2JER-GnGtf3zzaomazvY55HXbhteRn7FVBgyNK-pTcce5Ilnxknpcr6bhCJY&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQLPYAgUODpvCI07B0odONV0AfImydbRHJ9EaJujOZilDGnl4vAffRwGKUfYZQTV0UDnhxRC9zBN-A&oh=00_AQFMAjr9MLRayoocqoue7wRDgDrnU1vtu0gPtPaAXrLT-Q&oe=6A95B906",
       "videoUrl": null,
       "likes": 158,
       "comments": 9,
-      "views": 4247,
+      "views": 4251,
       "reach": 2803,
       "saves": 12,
       "shares": 6
@@ -485,11 +485,11 @@
       "timestamp": "2026-05-19T15:45:53+0000",
       "caption": "loving my new comfort zone thanks to @egohomeofficial ☺️ we deserve good sleep as we kick off the summer – use ‘LHtia’ for an extra 5% off your mattress andddd enjoy up to 55% off with their summer sale 🛏️💖\n\n#ad #MyEGOMemory #TalkAboutYourEGO #EGOBlackDreamHack",
       "mediaType": "VIDEO",
-      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/703069881_18591358714057149_6648689548899726455_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=sc2GbMxb0foQ7kNvwEisTz8&_nc_oc=AdphehzXKhHyjQqxMlnqz0OWyXfYLQN5CM_eX4wnEquNp7NkVf19MMbOF5EESxQsV2k&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=xy261wRDifzQo-Al37Hxxw&_nc_tpa=Q5bMBQKGaiDCGoBnhQFhHEQPoWXP1BTKpPIegSMzNQYmT8NzhwvgJVKcVgRaqI7lNlksMEavHDQAtbP_Cw&oh=00_AQHhQKTvhqly1UFX0kvE6RUIMqob_UOfILzOEkx91l_jdg&oe=6A95303F",
-      "videoUrl": "https://scontent-ord5-1.cdninstagram.com/o1/v/t2/f2/m86/AQManEfIh8i1XD7EvY3bxPox_o6dkuCA78Psmu0lySnpfUbYA4uHQDiirlmn4zncCKfDk9Q72vh5mx4skcsN1jp9MHw_OmbAI5qw0VM.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_ohc=FrHjOrjANiYQ7kNvwErbrqp&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg5MzEyNjQ1MTUwODc5NCwiYXNzZXRfYWdlX2RheXMiOjk5LCJ2aV91c2VjYXNlX2lkIjoxMDgyNywiZHVyYXRpb25fcyI6NTEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=755854643fdb2eb1&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83MDQ4QTZGREJDOEQ3NEVDN0U1REEyREEwRkVEQUVBQV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzEwNEJGMUUyQ0QyNUI2MjE1QzgwMjI0QzUwRkFGMEExX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb02MGau_LcBhUCKAJDMywXQEnVP3ztkWgYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&_nc_gid=xy261wRDifzQo-Al37Hxxw&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AQEhyT6xccW5AwvwJtpZTk2JwXdAhJ67r4LhP5iZFIBcTQ&oe=6A9151CA",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/703069881_18591358714057149_6648689548899726455_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=sc2GbMxb0foQ7kNvwEErA76&_nc_oc=Adr0Z0oU-YVDO_EAWQXpvj2UKUHd6nHVVm0S1THCRS7moaMZLLiVKuZIInSa6xFaNZU&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQIDRLZaC3yn5WkPAZSoazpmiv2QUypWlOg9lKLVXtTxXg3ryVLu5RXIR3BhETbvtzqFxMQkZ7GOww&oh=00_AQH7WceWJRVpfMW8XW5evLD9Su-4f1WQodlCk5KY8zBxAg&oe=6A95D8FF",
+      "videoUrl": "https://scontent-ord5-1.cdninstagram.com/o1/v/t2/f2/m86/AQManEfIh8i1XD7EvY3bxPox_o6dkuCA78Psmu0lySnpfUbYA4uHQDiirlmn4zncCKfDk9Q72vh5mx4skcsN1jp9MHw_OmbAI5qw0VM.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_ohc=FrHjOrjANiYQ7kNvwHM9MN0&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg5MzEyNjQ1MTUwODc5NCwiYXNzZXRfYWdlX2RheXMiOjk5LCJ2aV91c2VjYXNlX2lkIjoxMDgyNywiZHVyYXRpb25fcyI6NTEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=755854643fdb2eb1&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83MDQ4QTZGREJDOEQ3NEVDN0U1REEyREEwRkVEQUVBQV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzEwNEJGMUUyQ0QyNUI2MjE1QzgwMjI0QzUwRkFGMEExX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb02MGau_LcBhUCKAJDMywXQEnVP3ztkWgYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AQGfnJMyMYOIJbN65NUArFFr5NjyGUYd_LKTrjdr9l_IxQ&oe=6A91C24A",
       "likes": 530,
       "comments": 112,
-      "views": 8461,
+      "views": 8465,
       "reach": 5254,
       "saves": 39,
       "shares": 42
@@ -500,12 +500,12 @@
       "timestamp": "2026-05-17T19:12:37+0000",
       "caption": "little tia was pleasantly surprised 🤭 who knew upgrading your retainer routine could be this easy? loving my new dental routine with @zimadental pod pro 🪥🤍",
       "mediaType": "VIDEO",
-      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/701681577_18590835985057149_5172877303267838664_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Aa9GuDp-osMQ7kNvwGShW8Y&_nc_oc=AdqdVwQ33ie46yXieUyr1jrloXlS-3bC8IQPvPtQAFqZ1yqt0kE06MsDrv-Bzbf0kGI&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=xy261wRDifzQo-Al37Hxxw&_nc_tpa=Q5bMBQJX687lH1xptMuDJ2Y5Fc_pvUEiNb56PP3xbhK5j9wj8ieJa7GF8jgTgn22NTfShUI3gwBflyjI4g&oh=00_AQGOkZQib8taqrqW0kGiwUVTGlLA-ZoCHRj6nxHFqtIKlw&oe=6A952EA5",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/701681577_18590835985057149_5172877303267838664_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Aa9GuDp-osMQ7kNvwH9ilZZ&_nc_oc=Ado6YgJrnzLu4--fQpzCPLRNG9UfzP103tUNyCN6SYrHZO8UIvY5UTItttkwPN2_GFA&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQLfINFFcwmrR-jvJhxi-tcTCliKEw6UqovDXN387cUT_Cys45jXfC92xLBAUUIW4ddAIrf3JMYM7Q&oh=00_AQGE8IrRac-GEg0ZYu58uHxjvbcxrn4Egm7YzHy2djgJ7Q&oe=6A95D765",
       "videoUrl": null,
       "likes": 180,
       "comments": 21,
-      "views": 5767,
-      "reach": 4180,
+      "views": 5773,
+      "reach": 4188,
       "saves": 15,
       "shares": 9
     },
@@ -515,11 +515,11 @@
       "timestamp": "2026-04-26T16:33:04+0000",
       "caption": "survived moving. (and not having a kitchen table the past 2 years) but v grateful to my broker @justinw.re for making the nyc apartment hunt soo much easier. cheers to a new chapter and to working with the best 🥂✨",
       "mediaType": "VIDEO",
-      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.71878-15/682583715_999730002627444_8590167134387644376_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=t1EAICxvBYIQ7kNvwE6HU7o&_nc_oc=Adrt1pDlZpDy2f72mBwMU1_dSU7QlLYl4wNkpU52ZA9ml7UAE5i2L3my6r6gULJSAnA&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=xy261wRDifzQo-Al37Hxxw&_nc_tpa=Q5bMBQIaz0ORrZy08OIwNlO6566hGoG_8Ydk_eWX52vGpmhB2BB8geLMaa45ghZnYeiiqu3Vi7JTgSf-BQ&oh=00_AQHjTTy0dGvU9K0gINcqntyKxCPvIjRQQbbkDuNHcGhotg&oe=6A954386",
-      "videoUrl": "https://scontent-ord5-2.cdninstagram.com/o1/v/t2/f2/m86/AQOgJPRk8l4dYdJiNHzLVSVJ-q23kERR4iBMaMJRHHBlZP8hTm_NeouwurNI7Pp2uTsl82sdVc-e80UcDTA8ZQ3k1O587HW_yDgvyMI.mp4?_nc_cat=105&_nc_sid=5e9851&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_ohc=jGt3jvgdOaIQ7kNvwE8GlKB&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjA4OTQ1MzIxMTgwOTQsImFzc2V0X2FnZV9kYXlzIjoxMjIsInZpX3VzZWNhc2VfaWQiOjEwODI3LCJkdXJhdGlvbl9zIjo0OSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=add140ad5c92293a&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82OTQ2MjUyQTgxQ0I2MjRGNTM5Qzc2NEEwMTlCNjFCN192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0Y5NEIyQzA1RUUzMjM3MkIwOEQzN0IwRUVFQjlERjhDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACacmfum1NXnPxUCKAJDMywXQEizMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&_nc_gid=xy261wRDifzQo-Al37Hxxw&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AQGSpNqFH-TRuFgS1gOyPEB0gl28BPrm382ID0yF5kebTw&oe=6A913F16",
+      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.71878-15/682583715_999730002627444_8590167134387644376_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=t1EAICxvBYIQ7kNvwGl-Zba&_nc_oc=Adp6C_-wF4Famzl1NYaDjFJnihySR0Em_beUPLylm5azInRlitBZ3fZhZ2ngA9rtwFs&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQLwN0Gaff-LsbIYX6bUY4q_7aDQdB1zB5gcODmthtSRxee-UInVVDZ01GCEIAyxs3whJHo9YEVhlQ&oh=00_AQFJDeCMwiLOcRfEJ5pgpHDtW6hjBDgu-dXBnzhVCgd8qQ&oe=6A95B406",
+      "videoUrl": "https://scontent-ord5-2.cdninstagram.com/o1/v/t2/f2/m86/AQOgJPRk8l4dYdJiNHzLVSVJ-q23kERR4iBMaMJRHHBlZP8hTm_NeouwurNI7Pp2uTsl82sdVc-e80UcDTA8ZQ3k1O587HW_yDgvyMI.mp4?_nc_cat=105&_nc_sid=5e9851&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_ohc=jGt3jvgdOaIQ7kNvwHbo9RV&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NjA4OTQ1MzIxMTgwOTQsImFzc2V0X2FnZV9kYXlzIjoxMjIsInZpX3VzZWNhc2VfaWQiOjEwODI3LCJkdXJhdGlvbl9zIjo0OSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=add140ad5c92293a&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82OTQ2MjUyQTgxQ0I2MjRGNTM5Qzc2NEEwMTlCNjFCN192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0Y5NEIyQzA1RUUzMjM3MkIwOEQzN0IwRUVFQjlERjhDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACacmfum1NXnPxUCKAJDMywXQEizMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AQHcxLvgHguJjb8g_5JUO6e25nJUNZhBODMr8SGt6gprBw&oe=6A91AF96",
       "likes": 490,
       "comments": 81,
-      "views": 8940,
+      "views": 8943,
       "reach": 4848,
       "saves": 28,
       "shares": 21
@@ -530,11 +530,11 @@
       "timestamp": "2026-04-06T19:03:59+0000",
       "caption": "techno was invented by black people. and more specifically, my dad: Eddie Fowlkes. my biggest inspiration. i’m so grateful to learn from you ❤️",
       "mediaType": "VIDEO",
-      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.71878-15/661708810_1364601165503761_4003863174011621811_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=hfdh86OM7VEQ7kNvwF8R6qz&_nc_oc=AdpbB39PHObcHsZw0dFG17rsbohVETiBH7IuNtQYlr425xHQLj5Qfdq_iT8at2j7AXU&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=xy261wRDifzQo-Al37Hxxw&_nc_tpa=Q5bMBQLJspFc_Q54YTtq96bI4v51sny1sISK5sj4rowCidmda64mM2EWLbUlAo8pQNlIcVCJwsT8H_HBeA&oh=00_AQEVcH3yTDWg7mNlssTGH0F31q7U4OCwcPZk6KK8geYGPA&oe=6A953F06",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.71878-15/661708810_1364601165503761_4003863174011621811_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=hfdh86OM7VEQ7kNvwEjGHj8&_nc_oc=AdqOoarYjHLNI5yIiFK4ysTRCyA0qhSQHUYcZfFUYH7bFgIcj6s2PE3-5p9Du9_LZF8&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQKD8acD6ErO5Kpyc5ImXC6d78gE5zyi0rVCP8btze3kQWtBpkjHbo9vhYr8bh5QlxPF5bVX6MvgMQ&oh=00_AQHrBlO_7Hdz43lSy7dBkhg8M00B2DmZZGD9HRBTfpkQWw&oe=6A95AF86",
       "videoUrl": null,
       "likes": 1086,
       "comments": 235,
-      "views": 14517,
+      "views": 14520,
       "reach": 8603,
       "saves": 90,
       "shares": 385
@@ -549,7 +549,7 @@
       "videoUrl": null,
       "likes": 623,
       "comments": 128,
-      "views": 11290,
+      "views": 11294,
       "reach": 4219,
       "saves": 19,
       "shares": 7
@@ -560,11 +560,11 @@
       "timestamp": "2026-03-23T19:42:15+0000",
       "caption": "corporate burnout is real….and he had a way of turning my breakdown into a breakthrough 🥹🤍 [circa 2025]",
       "mediaType": "VIDEO",
-      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/660092635_18580142500057149_7049082457812875479_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9N8PTe9ethEQ7kNvwE6xixT&_nc_oc=Adq2BF0V7KYTLC-vwBPmFx-LJjyyLMZYcKKdqxUpJcYLUcUn7oaH228kHmuQzLLqBPQ&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=xy261wRDifzQo-Al37Hxxw&_nc_tpa=Q5bMBQLwDV44Tyt8CJ2KD5MkOpyW-JtSdShJUVPIYE2ap9AfG5XzKqjlo46rmGQvCOSYDcXsLP8YITax6g&oh=00_AQF_4E-ptXyj6hqBO3_yKtwTclMXSEawMEBjkaaG-YGvWA&oe=6A9537F8",
+      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/660092635_18580142500057149_7049082457812875479_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9N8PTe9ethEQ7kNvwFJqLqf&_nc_oc=AdoyCcM0qccmP9Rsec9idHcM78M4m3pIi-rvDq08X_0smURcbPt_tSB3wVDoEqsj3zY&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQLoOMjPeW5p-ttQ30Z30Wi_9VrcfXzPDYADwDGODiPRcghUfZGnBWWpq5Q0GUUhDBcFfFg_kpRgzQ&oh=00_AQFMEEKVxitpT4DO0zsd9LUQ_QkfOj3efiekkqwZpM3pWQ&oe=6A95A878",
       "videoUrl": null,
       "likes": 1563,
       "comments": 149,
-      "views": 22209,
+      "views": 22212,
       "reach": 13439,
       "saves": 142,
       "shares": 152
@@ -575,11 +575,11 @@
       "timestamp": "2026-03-20T19:07:37+0000",
       "caption": "i moved to new york and was in for a rude awakening💔 i hated to admit it. how could i be living my dream and feel like this? [circa 2024]",
       "mediaType": "VIDEO",
-      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/659750117_18580143076057149_8386617188920356680_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RpQ4KYymnsIQ7kNvwEbeuY5&_nc_oc=Ado3S4nN4vz9TtrHq859UyB9dbiCep71o61uumT1XEEUE_WevI7-mH9bBzOANrlsSbE&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=xy261wRDifzQo-Al37Hxxw&_nc_tpa=Q5bMBQJrHBh8FXEjYkZ6a0rOdtXZLLHF_Een0s3KPN9v-FcQv4R4s_FpPIjSORaGUMIOnLS-wDgO2lTkmQ&oh=00_AQFhwRY5553yq5FVnh2ZaQC0UjfCj4B3dLnBt3OXDR5IlA&oe=6A954C49",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/659750117_18580143076057149_8386617188920356680_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RpQ4KYymnsIQ7kNvwHh-PmK&_nc_oc=AdrT2e99fU5beAbTtVEJza7gC9EqzmqRLVzyh0cfR_xB-4ERByLB7fJOvmU1eWdTXnU&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQKOV3C6_9frYgeYS8wRFCUIMzC4TTCiP1scCyRDge5yeatZ-giBF46cM_WGU2Ga-VLqmwAG31vEUg&oh=00_AQEnX6PChcWJTM92XDl9GGwCnjpXTA06CzVa0onmqHURtw&oe=6A95BCC9",
       "videoUrl": null,
       "likes": 1657,
       "comments": 169,
-      "views": 29569,
+      "views": 29571,
       "reach": 15866,
       "saves": 161,
       "shares": 168
@@ -590,14 +590,584 @@
       "timestamp": "2026-03-06T17:21:21+0000",
       "caption": "once you see it, you can’t unsee it. thankful to my parents for letting me crash for a year ❤️ [circa 2024]",
       "mediaType": "VIDEO",
-      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/659727601_18580141612057149_5304353699250570464_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9yhrHfKe6k0Q7kNvwE6dZZF&_nc_oc=AdoNy75DdLb-sWGkT8PSnwTNhKGmm1zzRss9GggFS9qUhcDDjU5XfzP0MAUhumeuPtk&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=xy261wRDifzQo-Al37Hxxw&_nc_tpa=Q5bMBQKyaQguB_ClTQP6y0Ua--rfrz3bsPoilxHx9nxjxFZjlAgSmq_6B-LXhwZX7tlySXZHZDuDSqD06g&oh=00_AQGVQTF4cR0mz7XJzh3Qv9gc-jB1yl5yBSeW8hQPo2Uf8g&oe=6A9546B8",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/659727601_18580141612057149_5304353699250570464_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9yhrHfKe6k0Q7kNvwGIUMTi&_nc_oc=AdrYlEOIipvI_OL3Y2MJskSLo0494544nbjMg_G-leI_fe0jf14CPzONKEvA9fH7xSk&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQJbqYnE9LKsgLck6N0AJh1T50tzAacIf57B3SwKpLIvFcRGzA7bkCKdcR3Ovq6W4V5z-yBpyEKc4A&oh=00_AQEIc63jon0aFjokEpWYQn8v-GF1uR7epk4R-RXGiUyAng&oe=6A95B738",
       "videoUrl": null,
       "likes": 2322,
       "comments": 134,
-      "views": 35928,
+      "views": 35931,
       "reach": 18628,
       "saves": 324,
       "shares": 307
+    },
+    {
+      "id": "17939489919144147",
+      "permalink": "https://www.instagram.com/reel/DVeb49pEZ56/",
+      "timestamp": "2026-03-04T20:16:49+0000",
+      "caption": "a chapter full of sacrifices. one thing about me, i love playing the long game 🤍 the time is going to pass anyway right? [circa 2023]",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/659409532_18580141066057149_1864616367349385656_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=KIR6TgG4diQQ7kNvwFcvGMT&_nc_oc=AdotANC1gfUgY2dwFr8zKkjFJks8CnU_ZaauAM_y6H7WGFWYWj30TqTNIe0YcJtW1xY&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQJ9twCIwNe715P67_YS4APX7boz68VbeETsMlcfbQDf3RkJHlvBaBFFri7d38VUK7uy0g3TH81bHw&oh=00_AQF_3x5iBAPmq6BwYKRPr1iiX9_YMJ6Ss3Y6qXuHMPulMA&oe=6A95C4CA",
+      "videoUrl": null,
+      "likes": 15426,
+      "comments": 386,
+      "views": 234152,
+      "reach": 144044,
+      "saves": 1990,
+      "shares": 2529
+    },
+    {
+      "id": "18083335205246861",
+      "permalink": "https://www.instagram.com/reel/DVRoyBVkUgo/",
+      "timestamp": "2026-02-27T20:59:49+0000",
+      "caption": "was i angry? yes. was suing everyone out of my budget? also yes. but i figured things out (eventually) [circa 2023]",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/659645371_18580140844057149_403998556093662291_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=T7xDD4Sn3MgQ7kNvwEXC8Pk&_nc_oc=Ado1dmxgWYu15dN7ho6aGm8T0kxWbjXDkZMT6uf-bQWeYu8Kx5qQY799CgL25B9ZOmA&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQIm4l9OWkfbPtM8qAvCFhnC6kGueXRwWlc0N9dGeD3IO3k_8jq8jB3yXeueJwhlMg8D8zu9nHiMLQ&oh=00_AQETRmgc_bPOJPaAAVoJTJ41GFaaC3EJdmMWu354-y7XzQ&oe=6A95C368",
+      "videoUrl": null,
+      "likes": 752,
+      "comments": 86,
+      "views": 14759,
+      "reach": 8939,
+      "saves": 45,
+      "shares": 74
+    },
+    {
+      "id": "17926163553228408",
+      "permalink": "https://www.instagram.com/reel/DVJ4xuYkUMv/",
+      "timestamp": "2026-02-24T21:00:07+0000",
+      "caption": "honestly, thank you detroit for always supporting me in every endeavor 🥹🫶🏽 i love y’all and i love my city. [circa 2023]",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/659567579_18580137661057149_3786190778952618813_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=vrjaxJSy1SgQ7kNvwH2Bkew&_nc_oc=Ado6Ule8oOYkO9uNwsNK-JbdK5UOFpmtqz8uC_U-AyiQUJNccNRiDc6kPNWyaEAtFnM&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQJGbEEzUWYa7VIvMUVOhZKAC5rG3NI97Un1C8_WdLeE0SJ_JCRVSfsDcHsQ0au_nI5CSfvVjjZY2g&oh=00_AQH_Fjrw65-gH0FDL4scEFJkhgGZe7BkPD2Ly91plYXbZw&oe=6A95AAE9",
+      "videoUrl": "https://scontent-ord5-1.cdninstagram.com/o1/v/t2/f2/m86/AQP8V5pvns49E5oF0IjnIIOzuaxmTYJfgDrk3tq3JtJJYOa7yvLZHebcBAddaDsj1v9kSm6NtTKZFp_8HGiBQRCadpe4qz22aT5B1ys.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_ohc=H2M8aFpDl6EQ7kNvwHdn7Te&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NDUxNDc3MTUxMTgwOTQsImFzc2V0X2FnZV9kYXlzIjoxODMsInZpX3VzZWNhc2VfaWQiOjEwODI3LCJkdXJhdGlvbl9zIjoxMzgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=ab01cfde095abd5b&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BODQxMjk4NzRGMjBEMzc0N0JGQkY0MDkzMzNERDdBMl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzk2NDA2Nzg2MEE1MDRBNDg2NDBEODk1RENBNjZDNkExX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACackIOwicHgPxUCKAJDMywXQGFMzMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AQG9kYGw2-1ABA8wuboQ0Jl_QwdCn-y2v0DyzeRqlvb44g&oe=6A91D676",
+      "likes": 899,
+      "comments": 128,
+      "views": 13607,
+      "reach": 7925,
+      "saves": 57,
+      "shares": 69
+    },
+    {
+      "id": "18015304562818492",
+      "permalink": "https://www.instagram.com/reel/DUvp3QcER5N/",
+      "timestamp": "2026-02-14T16:27:57+0000",
+      "caption": "you brought the light to every single shoot, runway, and the entirety of detroit fashion 🤍 my tia twin, you are missed and left a huge impact on all of us. literally my favorite model to work with bc you know how to steal the show!!💞 this chapter shows only a sliver of that, rest in heaven my girl 🫂❤️✨",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/659314393_18580137304057149_6038948539003880014_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=DmAASilVM24Q7kNvwFsxsPa&_nc_oc=AdpCnD9shGCTbvt5UvKFVXaDBDLurCQBXGXQfT4BROCPKyHhrpUKGUEHmdmr_nkfGGM&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQJwUS31PuYJ-sO_FU2yoQOYqDPsfxFTxJvS-2L_PmvMuWQWscvxtszwgBNAV1E_cDMpchBPZMIMtQ&oh=00_AQHWidTWhNP9rrSQ6LLq1MZwbOFcR2m6C3WgC1GLI2TQSQ&oe=6A95A847",
+      "videoUrl": "https://scontent-ord5-1.cdninstagram.com/o1/v/t2/f2/m86/AQMOlIsO9YsQToIdD-w0rb_QAWBVmMMlM02vtINz41ohtDC6n-87pskQUX4nX7chqarQ0ndCvLJRkOhVX2U_RfDQ1YpLwzi305e8ixU.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_ohc=QfFPKtkwJ1YQ7kNvwGHWVP6&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NDI5MTAxMTcxMTgwOTQsImFzc2V0X2FnZV9kYXlzIjoxOTMsInZpX3VzZWNhc2VfaWQiOjEwODI3LCJkdXJhdGlvbl9zIjoyOSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=e3e747f14f9f1aae&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85MjRBOUFENjFEQUQ3RUU3NDY4MzVEMTNCRThCMzJBRl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzExNEFCNjExRTc0RDIyOUExMDU4QTMzQjNBQzU0REFBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACacgqT86b7fPxUCKAJDMywXQD3u2RaHKwIYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AQF_w18DJRTdFXZj4qECGdaZVFnYCqdTU2G36lHGAiNJNg&oe=6A91DD06",
+      "likes": 734,
+      "comments": 90,
+      "views": 18489,
+      "reach": 10846,
+      "saves": 22,
+      "shares": 43
+    },
+    {
+      "id": "17928330702195674",
+      "permalink": "https://www.instagram.com/reel/DUedCOgkZZL/",
+      "timestamp": "2026-02-07T23:58:56+0000",
+      "caption": "and so the hustle era begins…. welcome back to corporate exit chronicles 💕 what city did we go to next? 👀 [circa 2023]",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/660699432_18580138663057149_8999202577994669180_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=N38bqAEHtA0Q7kNvwFd1OeU&_nc_oc=AdqHenchpI1yZjwyvC3i1orWHd4SXuV2-TUPZ9C-41OBSp9t8IUgfFCmAWSuf6ZVIDs&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQLApmXcNJ5AyxpzEg17bqt3jz7TAW5jf_CU3b7qCkRRepvrmGngzsWKUtgTQIOqvMuWS7v-agIPQw&oh=00_AQGPtbVTmWjX0QWWcNOh5537o72zNXlVuQW2Qh3LXBpykQ&oe=6A95AB36",
+      "videoUrl": null,
+      "likes": 284,
+      "comments": 16,
+      "views": 7908,
+      "reach": 5358,
+      "saves": 24,
+      "shares": 18
+    },
+    {
+      "id": "17954791914064564",
+      "permalink": "https://www.instagram.com/reel/DUT5-7NkYmk/",
+      "timestamp": "2026-02-03T21:39:12+0000",
+      "caption": "faith over fear 🤍 documenting it all and so happy we get to be on this journey of content creation + entrepreneurship together :) major thank youuu to the hosts for this amazing event full of intentional social impact 🫶🏽",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/660087953_18580136737057149_5031392864469503609_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=-9xl-Tjxun8Q7kNvwEyGcru&_nc_oc=Adp2Hn3-1h7Umney1w9wNTEc-7YmVajotTaZde_xzDttcQ0PbXG3rV_fDrzrAI1SkMY&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQJEcta7z27vWxQnxZEVKCvQm3W7n67t9khBJqkn_yjEe6DTzQ331_p3ReHB6w06wE4PetKOHGGomQ&oh=00_AQHq8H0jyL-C1duKQhvCFSlJTCZNUqa7FhExgwhCx1heZQ&oe=6A95BB1C",
+      "videoUrl": null,
+      "likes": 358,
+      "comments": 30,
+      "views": 6959,
+      "reach": 4980,
+      "saves": 32,
+      "shares": 15
+    },
+    {
+      "id": "18074246954613367",
+      "permalink": "https://www.instagram.com/reel/DURKct7kd1W/",
+      "timestamp": "2026-02-02T20:00:00+0000",
+      "caption": "what a wake up call. welcome back to corporate exit chronicles 💕 [circa 2023]",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/659661781_18580138204057149_9141005171093686512_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=28wOV2q8ReEQ7kNvwH4gtCH&_nc_oc=Adr7d99c-aRG6sEchyKm7olcUfF12oWGA2LqQv4qjLUUdojRgodjdv5X4Q7TwlXFI0k&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQKSwzJpTo1es5qOXvv0w8KlPUGver5KW_AqS9dpQ5L7ICY_yN08Ku8rdcFAotk28kahJQ8f8Q8UlA&oh=00_AQHs76KqS22n3qLmMVqI7S60C56l61OW56ilwJFl638-8g&oe=6A95BA86",
+      "videoUrl": null,
+      "likes": 380,
+      "comments": 68,
+      "views": 9424,
+      "reach": 5739,
+      "saves": 27,
+      "shares": 27
+    },
+    {
+      "id": "18055128518406550",
+      "permalink": "https://www.instagram.com/reel/DUJH51KkVit/",
+      "timestamp": "2026-01-30T17:14:12+0000",
+      "caption": "spent all of my free time obsessively learning creative skills - ones i was passionate and extremely curious about 🎨✨ welcome back to corporate exit chronicles 😇 [circa 2022]",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/660096467_18580133701057149_6175747439512096053_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=_3FFERX34_wQ7kNvwHeXF5B&_nc_oc=AdpFPq1mj2JdpDoogVn_1eUgqzx76KZMpx0r3wkySe9M3FfKvm_iClMoWn6xTTPYAsM&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQKbyCB9jiSi5dnf55Bwrg4xkKl88gHI20Wa_J0GhCIOu5nRpAd5k9GZVtIamhTUZ48XDEFxOXmdbw&oh=00_AQFoErFyTvH3HFaHnPY6vBTt_feCRFRX0jtcezlSTyzO1Q&oe=6A95D115",
+      "videoUrl": "https://scontent-ord5-1.cdninstagram.com/o1/v/t2/f2/m86/AQOEmuPRms976cNLW1Sq2Cpc-_ugYAsuBtqq76onpHjOfDMO8cEA7quV8vbA3F4rfmBuUWqWK0tP73EZcrSCu6LwOs3mnhhOtb-KiU4.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_ohc=Yuy3JlhlIVoQ7kNvwFy6wqw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5Mzk5NDgxOTkxMTgwOTQsImFzc2V0X2FnZV9kYXlzIjoyMDgsInZpX3VzZWNhc2VfaWQiOjEwODI3LCJkdXJhdGlvbl9zIjo4NiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=5237dcce6b4980f3&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9FOTQ1NDFDQkZGMTYzQUMwNzEzOTMxMkZGMUI2RjE4Q192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0VCNDk0MDFCQUE0QkE2NkY1QzYwNjBDOUZGQUQzNDk5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaclJT7tZLePxUCKAJDMywXQFWiHKwIMScYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AQHSkAFwkJjheoyOwLFQoNwPvQowp_9B78I3SQH0WMpnFg&oe=6A91B455",
+      "likes": 342,
+      "comments": 39,
+      "views": 7259,
+      "reach": 4635,
+      "saves": 28,
+      "shares": 13
+    },
+    {
+      "id": "18552810889046619",
+      "permalink": "https://www.instagram.com/reel/DUES-KxES98/",
+      "timestamp": "2026-01-28T20:07:03+0000",
+      "caption": "i may be insane for this, but it makes my morning routine so efficient 😭🫶🏽 a vitamin hack i’ve been doing for almost 3 years now lolllll",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.71878-15/624534695_1200077862306157_6167923414510044974_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=TW6MGCYG0r0Q7kNvwEJsqzV&_nc_oc=AdpJgpswjULlMA99FlRuJZ_02HLnTMTdoPbjnuwwyPjyqbvobHbjIkRP-7JwUMiI-QQ&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQIwFyLMrjnmAQWyW8ntvVzv3-7rrLm-7cx9GYTK82hrXnvutyaIcW806KYgG4rKFfWyBNNxpVVUrA&oh=00_AQEXd8VvJQZ3am73-XPKPGV6E1dSHys6ZOTzp3nTld95lw&oe=6A95D61D",
+      "videoUrl": "https://scontent-ord5-2.cdninstagram.com/o1/v/t2/f2/m86/AQOQZOQna4rD_0pgRpkNofxcgiG51uqUS9zMI_DVxnhZ2Kp-89YKTHq-p9LKuHOZ2SvrCs0P113eaOkraPs-pfoHbFyyKsC7FXtsQvc.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_ohc=tZjEtaQhooQQ7kNvwGbCpqa&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5Mzk1NTYwODExMTgwOTQsImFzc2V0X2FnZV9kYXlzIjoyMTAsInZpX3VzZWNhc2VfaWQiOjEwODI3LCJkdXJhdGlvbl9zIjo2OSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=15b1efdf435c8ff2&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81RDRFRTI3RjE5NUM1Nzc4OUY1RTQwQkE1MTRDQzQ5Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzFFNEM2MUY3QzE2OTRGMjk4REUxNzUyRDM2NjRDMTk4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACacrqW6zPvdPxUCKAJDMywXQFFszMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AQEggn3JJdWFonN1xMog1YuK4HW3HgAR0NYquWi6UZmDrA&oe=6A91E398",
+      "likes": 117,
+      "comments": 23,
+      "views": 5825,
+      "reach": 3827,
+      "saves": 19,
+      "shares": 22
+    },
+    {
+      "id": "18000011759896692",
+      "permalink": "https://www.instagram.com/reel/DT-246GkdUB/",
+      "timestamp": "2026-01-26T17:25:22+0000",
+      "caption": "the foundation of it all 👩🏽‍💻🫶🏽 welcome (back) to corporate exit chronicles 🥹 [circa 2021]",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/659153128_18580133179057149_1205660602498965676_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=M7HyX3QYy08Q7kNvwH16Jy2&_nc_oc=AdrtIvTUdb2tVDp0pxUYMtfyhGQkvD5kJWC9RAQqbLas2c40Cc_Q8VTGROdl92A2PIU&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQJrbDHq4DpLcBdPKfqv_4ce8KVqcGIwu9Rtm9m615SGSx7XlJKbipuKKSIYSb2pfcPFXfBGnAveHQ&oh=00_AQHg9Eqen9oCln6gY7yqr_vhiFHVbF496de_AchC7w7PlA&oe=6A95AC25",
+      "videoUrl": null,
+      "likes": 709,
+      "comments": 57,
+      "views": 12279,
+      "reach": 8103,
+      "saves": 78,
+      "shares": 67
+    },
+    {
+      "id": "18348380611231081",
+      "permalink": "https://www.instagram.com/reel/DT3Hm4jEapO/",
+      "timestamp": "2026-01-23T17:18:26+0000",
+      "caption": "whew….it’s about to get real. all the decisions and thought processes that led me here. let’s unravel: corporate exit chronicles 🤍 [chapter 0/x]",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/662048804_18580140382057149_6170482118774150660_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=hTFy5VJvyxAQ7kNvwEBNjKb&_nc_oc=AdqgL7q68pqG9Ji4G8Vu-kWl_Qa4PG_S2bQKr1MHklxmnF9lVluMjYLZ-knw2zcUbGg&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQLVevKHIjupLKqUdhGm-pHvPjDpu893COIRtgqDCAI6j4lTRZqBXBu9ioAfh5YHxuWKCS-h8dxFLA&oh=00_AQGP1mmKeknC6c3w3rNUIkLknsVXwjAKCiqg4XaKQBy0EQ&oe=6A95AC9D",
+      "videoUrl": null,
+      "likes": 956,
+      "comments": 121,
+      "views": 20358,
+      "reach": 12035,
+      "saves": 185,
+      "shares": 212
+    },
+    {
+      "id": "18094756126937962",
+      "permalink": "https://www.instagram.com/reel/DTyS90GEfyH/",
+      "timestamp": "2026-01-21T20:20:01+0000",
+      "caption": "i have sooo much to share & many things to build, but as a retiring perfectionist, thank u for always engaging with the knowledge drops🥹💓",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.71878-15/619960166_1429144098869761_3691808073767377553_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=SBLYtbfU2fAQ7kNvwFzfoII&_nc_oc=Adr_8tW6GsXd3VMIlNhuH0mdQQZXnuLU0ePD8H57ccbKE649ygIkcsm3YKFd1psaNKg&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQLWrOyWMYgNXQYIXJw7Uox3ZY7s9K7PxKHE6fD7XUcLVPbkZICTiP-sPLknrln2upruHMN1Yajjtg&oh=00_AQHPt259hkjnqImQc5AEowMMmZsPYJe3ON73PMOvdWOUdw&oe=6A95AE65",
+      "videoUrl": "https://scontent-ord5-2.cdninstagram.com/o1/v/t16/f2/m69/AQNW8nJiSftoUcLk9JVRTfoSD_TanSwLVh6BPFVPUjFDSJ84VkRv04ekwU-vAf0AWmiqeRxB_3eA8KugKOWHa9rn.mp4?strext=1&_nc_cat=105&_nc_sid=5e9851&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_ohc=3ffCasno400Q7kNvwGhWrp9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5MzgyNDA2ODkxMTgwOTQsImFzc2V0X2FnZV9kYXlzIjoyMTcsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo3NSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=4bc3c74dac87f4f7&_nc_vs=HBksFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HSmE0eENTd09oRGdySHNQQUdLVmlHU3NGNUZhYnNwVEFRQUYVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzlBNDM4QjA4RUFFRjZFM0E5ODc5MDM3MTc5QzY2ODgzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACac7tyChK_dPxUCKAJDMywXQFL7tkWhysEYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AQGx1-mufGSRKx5Ixe8pMHow_f6o1c8bRUMj9TFDM0Z_Sw&oe=6A95C4DF",
+      "likes": 177,
+      "comments": 36,
+      "views": 4029,
+      "reach": 3019,
+      "saves": 20,
+      "shares": 25
+    },
+    {
+      "id": "18204202942320430",
+      "permalink": "https://www.instagram.com/reel/DTvvGktEZ-B/",
+      "timestamp": "2026-01-20T20:30:38+0000",
+      "caption": "working from home or building that 5-9, our environment matters sooo much. we are setting our homes up for success this year !🫶🏽 what would you put on yours?",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/659684502_18580132339057149_2786891033960157901_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=2F395sIGPtcQ7kNvwFKrfY5&_nc_oc=AdrjDQRnCcUkUARq1v8azuVDDTQTQUwrlifTquxHwxiKATGfzUfxDQzRNFiz-Myd4lE&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=SFXkOKHIHTZrCGNgvHFy6Q&_nc_tpa=Q5bMBQKmEGj_WkgrZK_IuwVPUV_kTCaxh2xQQReZqB-Oo-bM-bWtUXexlu4gbvhidzcB9s_bwD-c0C7OPA&oh=00_AQHutG1o1glx8zYGA9NX2oiflFvOUQlcuagG5CLzfCeG2A&oe=6A95AEB2",
+      "videoUrl": null,
+      "likes": 326,
+      "comments": 48,
+      "views": 6192,
+      "reach": 4227,
+      "saves": 41,
+      "shares": 96
+    },
+    {
+      "id": "18031376291781124",
+      "permalink": "https://www.instagram.com/reel/DTi0DDtkWGy/",
+      "timestamp": "2026-01-15T20:00:00+0000",
+      "caption": "i think we can blame the parasites for our sugar cravings 🤭 just finished a 2-week cleanse and saw major differences in my appearance and brain speed lollll 💬 comment “health babe” and i’ll send u the exact supplements used so u don’t have to do all the research💓\n\nfyi: week 1 is rough, week 2 is when the magic happens ✨ (this isn’t medical advice, just my personal experience with the cleanse)",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/662422599_18580130818057149_4552614812690701839_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RZIyWwXzbQcQ7kNvwHpbWwq&_nc_oc=AdruthcOEfSoV4efazTiTKMXDA1TZHXMUElLIXdkUuMgm7sBcmWRDZZmE_pUgZ5Y83c&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=8GFQZkVIQoO5dj3Nh3eq9A&_nc_tpa=Q5bMBQLrR6ZdZrWTfbD_cOLFa_OD9QOyDG7YRGeoMzwb58942ORBMb42jq7QBjDRDd_3eSf1DMtLGRwb_w&oh=00_AQHA79GeEZFL3dOtRPUC5RB7m6kbOLIxKets7Sfz29NWcw&oe=6A95AEAE",
+      "videoUrl": "https://scontent-ord5-2.cdninstagram.com/o1/v/t16/f2/m69/AQPZolb0PYaueRpqp5MGdQY86tQd4XdD5Vpz1xWD6pccIts7MQHcDudGu5WBSGcNpp6o6d6jZoHEXhTCAYW6WTPl.mp4?strext=1&_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_ohc=3AcyNXUhNyYQ7kNvwHpOH7H&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTQ2MDQzODk1NTYzODQyNiwiYXNzZXRfYWdlX2RheXMiOjIyMywidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjE1MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=ccd360ce0aa2b968&_nc_vs=HBksFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HTi1wMHlRRGVrYlZLT3dOQUYyRXFPZ2RyQWtUYnNwVEFRQUYVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzMzNDM4NzE1MUZFMDZFOUJBNDYwRkVDMDkwOEQxOEFCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa0-tWS3pCYBRUCKAJDMywXQGMjMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=8GFQZkVIQoO5dj3Nh3eq9A&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AQHaia4_UPD69WT4PhIxYWnHnqPUO8CbolUlnB7M-zVAHg&oe=6A95A4E9",
+      "likes": 391,
+      "comments": 126,
+      "views": 6970,
+      "reach": 4714,
+      "saves": 225,
+      "shares": 134
+    },
+    {
+      "id": "18065648213552441",
+      "permalink": "https://www.instagram.com/reel/DTds2rXEYqj/",
+      "timestamp": "2026-01-13T20:22:17+0000",
+      "caption": "allow me to reintroduce myself 🫶🏽✨ i’m tia lee, just a corporate dropout designing life with intention. in the process of refining and pursuing all my favorite things to show up as my best self every day ‪‪❤︎‬",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/659768156_18580130308057149_2926744153747386805_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9YLfzAUIkkcQ7kNvwH_lACy&_nc_oc=AdqWbxGNqyUK65x7YKTx8RnsXupy7rkeJdab0rSf9RkxkdRC2Qe94rUJ04pa2twEMag&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=8GFQZkVIQoO5dj3Nh3eq9A&_nc_tpa=Q5bMBQLR8JZQmOtYQF2KjmSaRQJmzcoONaf6sJoeFTBjgjxz-yB8npM3g1gfKTpI71YuPLwLO6EyqMNDyQ&oh=00_AQHpvJTnWQqZJNcsTTgyeYH2irhSQTsHyX1s5slO47huiw&oe=6A95BF5B",
+      "videoUrl": "https://scontent-ord5-1.cdninstagram.com/o1/v/t16/f2/m69/AQNhsh269ph1ysVmG6UnMZFBPBW9u1_epEWIqTUNlQqPsCgSwR-vtH0lYfOzaCkVE21ZCwq4YAx6igcVh-P6BYm4.mp4?strext=1&_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_ohc=1-R2KQsOP7AQ7kNvwEHVPQh&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NzU3MzA1ODMzNTEyNjgzLCJhc3NldF9hZ2VfZGF5cyI6MjI1LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=66320a1b02aec794&_nc_vs=HBksFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HSllsdUNUYVpWNlc2UWdGQUU3ZFM5Vkx6cEp0YnNwVEFRQUYVAALIARIAFQIYRmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xNTUwNzI5NTgyODAwNjAxXzM4NDU1MTEwMjQ0MjA4MDc4My5tcDQVAgLIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAm1vuKk4Cx2AIVAigCQzMsF0Al3bItDlYEGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2XmnQEA&_nc_gid=8GFQZkVIQoO5dj3Nh3eq9A&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AQEcXsFmzUVUHfko22nGV9wYhEx3Pl5aI9JI9xDD5hGW_Q&oe=6A95A33A",
+      "likes": 335,
+      "comments": 54,
+      "views": 6305,
+      "reach": 3708,
+      "saves": 33,
+      "shares": 23
+    },
+    {
+      "id": "18053281283403526",
+      "permalink": "https://www.instagram.com/reel/DTTcBZSkZC9/",
+      "timestamp": "2026-01-09T20:45:35+0000",
+      "caption": "casual father daughter chats. thanks dad 🥲",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/659029063_18580129117057149_6655546221445692371_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=46tlxv2AZBsQ7kNvwEi4zBE&_nc_oc=Adq8obgUHuXqrX18x9-cFL_rpCRC0aPaO6idHVrb5OEGoJoWiK-WGVFElc0i2O5P6_0&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=8GFQZkVIQoO5dj3Nh3eq9A&_nc_tpa=Q5bMBQLqUp1BFFG7N6dc13SsRPu3cuYu4y3iK0ZcyWl7NPHRSa8TItdbxMPVXF8UNABSIb6e9eYWX2Vykg&oh=00_AQELOlL5R8oUr6A75O66LefI6P3TlewBKJOwvJGGsEuQrA&oe=6A95B9E6",
+      "videoUrl": "https://scontent-ord5-2.cdninstagram.com/o1/v/t2/f2/m86/AQMI4C1LmN54iJsO4OO0QxCALHZ-fPSoTVDaqTQIFdM3Za6KTcrtLlxBo_PocLBGE49q-dsQwtiW5dDhqx4ysAT3kKV5OJmZx00Y_Gc.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_ohc=voZ0Sl0bVIcQ7kNvwGxcVCc&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6ODQ4MzA1MDE0NzAwNzc5LCJhc3NldF9hZ2VfZGF5cyI6MjI5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MzYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=945a3c5db38b1526&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8wMDRBMTNFNUM0NUYwOTkwQjc2MkZENjQ3OTVBMTZCNF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYRmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84Nzk1Mzk3NjQ4MDk5ODBfMjUwOTgxMDc1NTE2OTg5ODI2OS5tcDQVAgLIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAm1uv_8OzhgQMVAigCQzMsF0BCCHKwIMScGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2XmnQEA&_nc_gid=8GFQZkVIQoO5dj3Nh3eq9A&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AQGDUM7I5Bp9Y6HGXRS_647AvtAJrfzWdv3vvOBsfOkzUg&oe=6A91BD31",
+      "likes": 160,
+      "comments": 28,
+      "views": 4781,
+      "reach": 3345,
+      "saves": 11,
+      "shares": 23
+    },
+    {
+      "id": "18091014628965997",
+      "permalink": "https://www.instagram.com/reel/DTN5GofEfKG/",
+      "timestamp": "2026-01-07T17:00:00+0000",
+      "caption": "small act of refinement bc we have no room for distraction😭🤭 let’s goooo",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/660741928_18580127428057149_2084803583484017297_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ouDCWRFJiz8Q7kNvwHV_Qm0&_nc_oc=Adpy9DyWbwAxmlLPyGSz_YocFrXbcTpQfQsobqKGGwG1w-T542HJkc31tUIC6hUkqeA&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=8GFQZkVIQoO5dj3Nh3eq9A&_nc_tpa=Q5bMBQJBQ-CH_8zC5kufJ9EvEmuw8z8e-SoZuqC6tiQAx1IlqEk1zP_CqCuhrF4hXerWTJB50vghh3lSDg&oh=00_AQFk7uMhbvhS5Rb2VwnBGi2YI5Dw4QZstaD1lvNTYCto9A&oe=6A95B895",
+      "videoUrl": null,
+      "likes": 193,
+      "comments": 14,
+      "views": 10660,
+      "reach": 5386,
+      "saves": 5,
+      "shares": 7
+    },
+    {
+      "id": "18095758546916525",
+      "permalink": "https://www.instagram.com/reel/DTBky1GEZe4/",
+      "timestamp": "2026-01-02T22:16:25+0000",
+      "caption": "signed a girl who never gets her hair cut and is very dramatic😭🫶🏽 we’re in our refinement era 💓",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/659040921_18580125901057149_4033512396610084456_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=zn9GuxrKc7gQ7kNvwGqCOyb&_nc_oc=AdqaCA0LnBzWFxsCpvNF6pieE7v5b3QMN8Vcpw4BBiQj82EVSzEGqdfekXwcMIFjQsQ&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=8GFQZkVIQoO5dj3Nh3eq9A&_nc_tpa=Q5bMBQIYcBAd_UkxZWmCj6zzS9H7hjW5lF62lWGL-tZOZBeHeq8eUUTUszhZj2N6Phj9_xoVDIEzwUDatw&oh=00_AQE58uwdEGVhqSiSuH7h2UrqLmkEjmtYLQGdFad-nSZvvw&oe=6A95C0FE",
+      "videoUrl": "https://scontent-ord5-1.cdninstagram.com/o1/v/t2/f2/m86/AQPqovUovkfq3iXsT-2U7zAw8zMdSTmVXqS1QIro2H--uGK3QGlZ9Tigbb0uZ9mKQCCmd4VwfeANkcbhEiENTLMmMP9FsKIx6qLDdIQ.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_ohc=Y8zB1uj0gPwQ7kNvwGL3pKW&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjU0NjEwODQ4NDAxNjgwMjYsImFzc2V0X2FnZV9kYXlzIjoyMzYsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo1NSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=69163c0b4c5d2546&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GRjRCOEU1QzM0RjJFRkJGNkYxMDVCRTNERkJFMjk5Rl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYRWlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84MjI1Mjk2Mzc0NTA4NzJfMjM5NTc0MDk4NTI5MTg3NzI4Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa0qfTXmK66WhUCKAJDMywXQEuu2RaHKwIYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=8GFQZkVIQoO5dj3Nh3eq9A&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AQGUlBEz5LSdxF0KtZ4E5qzl1v-p5BQ-EpG_RH0X5-0JlQ&oe=6A91C280",
+      "likes": 655,
+      "comments": 62,
+      "views": 14650,
+      "reach": 10180,
+      "saves": 14,
+      "shares": 23
+    },
+    {
+      "id": "17868106776438629",
+      "permalink": "https://www.instagram.com/reel/DS0JO5_kX5l/",
+      "timestamp": "2025-12-28T17:06:13+0000",
+      "caption": "sedona, you have a special place in my heart 🫶🏽 special thanks to @enchantment_resort — the best higher self trip yet (my 5th one) & best resort in the u.s. honestly. where would you take your higher self?",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/662155061_18580103761057149_6403784591497823877_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=K4IFQbErLAcQ7kNvwEicSSi&_nc_oc=AdpgzfP-HgWHizTy_AeIBfxY1c1d-PfUCH9htvDa9LKnwD2D8FaMEMJyi6fLzEsCiAA&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=8GFQZkVIQoO5dj3Nh3eq9A&_nc_tpa=Q5bMBQLosgOw5LGbjdfoAonW79C2t7ybGZ1wc824hOboe79cpK8PT8xYSR7cLNUrYzCctxeSuhqR2s_pNA&oh=00_AQF_wKtXLT1KMvgVWDR1MXOaBUOGqr5K4O_r5iwFCnNtkA&oe=6A95D1FB",
+      "videoUrl": null,
+      "likes": 215,
+      "comments": 65,
+      "views": 3685,
+      "reach": 2392,
+      "saves": 28,
+      "shares": 15
+    },
+    {
+      "id": "18102181996688290",
+      "permalink": "https://www.instagram.com/reel/DSnVFxzjzpC/",
+      "timestamp": "2025-12-23T17:40:02+0000",
+      "caption": "my survival instincts were screaming😭 the energy in the sedona vortex really makes you trust your gut 🥹",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/660038797_18580101934057149_3588742745753542002_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=hrORk241owMQ7kNvwH55W2N&_nc_oc=Adp2ITfQFbsx6vX92PcV1_F_nOJKW-pOQRtCy-0jJxBtZGHBAHmBUF7bqeujKIGCFm4&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=8GFQZkVIQoO5dj3Nh3eq9A&_nc_tpa=Q5bMBQL_lpas9sWJDNFll1pheMhsqPw5Zd51AALGzNasCzXegP5rSvDqqeeBZPoDlXzdBiMYsCEnB-zfKw&oh=00_AQFCyHhRUrlRHU-JP3nE-xkDG27ss2xHXlWvBhO3rn11-w&oe=6A95D6DB",
+      "videoUrl": "https://scontent-ord5-2.cdninstagram.com/o1/v/t2/f2/m367/AQPRQkfyKwi9ldT45K6DittPOzXQHMP6LwWVVr58TKad6yGgZ3aA2_JUgtLy5Yl_AWul9HgKqztF5NXxU-YeZ1dHhnFTHrqW8PTLars.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_ohc=EWN7Z0srjpgQ7kNvwG5CFMz&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTYyNTc3NjE2ODc4NTA3OSwiYXNzZXRfYWdlX2RheXMiOjI0NiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=a7ec8bf7313e6a3e&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC8xMjQ2RDVGQUY0MjcwOEFEREI1MDA4NDM3MDA3MzNBMl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMTkyMjE2NzM2MjEwMDMzXzU0NTEyNDczMDUwNTQzMjI0NTEubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJu7SsrDQqOMFFQIoAkMzLBdAHRBiTdLxqhgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=8GFQZkVIQoO5dj3Nh3eq9A&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AQHiTfFJhZAerZlhuNiwNjGB3D6GRGV1Xz3QIysh3Noigg&oe=6A95D888",
+      "likes": 231,
+      "comments": 10,
+      "views": 10620,
+      "reach": 5808,
+      "saves": 3,
+      "shares": 2
+    },
+    {
+      "id": "17870867094490602",
+      "permalink": "https://www.instagram.com/p/DSiU01mEvv_/",
+      "timestamp": "2025-12-21T18:55:57+0000",
+      "caption": "defrosting 🫶🏽 (outfit by me)",
+      "mediaType": "CAROUSEL_ALBUM",
+      "thumbnail": null,
+      "videoUrl": null,
+      "likes": 441,
+      "comments": 104,
+      "views": 5573,
+      "reach": 2068,
+      "saves": 9,
+      "shares": 13
+    },
+    {
+      "id": "18086767805001676",
+      "permalink": "https://www.instagram.com/p/DRsX9bYEWOc/",
+      "timestamp": "2025-11-30T20:04:21+0000",
+      "caption": "in my element 🤍",
+      "mediaType": "CAROUSEL_ALBUM",
+      "thumbnail": null,
+      "videoUrl": null,
+      "likes": 408,
+      "comments": 70,
+      "views": 7400,
+      "reach": 2219,
+      "saves": 16,
+      "shares": 8
+    },
+    {
+      "id": "18544265146058546",
+      "permalink": "https://www.instagram.com/reel/DRS3mfQkTK1/",
+      "timestamp": "2025-11-20T22:21:37+0000",
+      "caption": "love when dad comes to visit me in new york 🥰",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/660199033_18580101388057149_665006163537323009_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RYWVAM-f_1wQ7kNvwFIJcds&_nc_oc=Adp_YmC7lN29xn9XYeZjPIqi-oey-PZF9O3VoaL89GBGqsqgosm0d9Snctxe4DoUxoU&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=8GFQZkVIQoO5dj3Nh3eq9A&_nc_tpa=Q5bMBQLS7025D6mhRd7dIZ0s9G89uypdD7oWrhnDtQ5c_OQexYvFmvQMr9kzbGKSRWkvRKBbBezpNmWRSw&oh=00_AQG_OBqHpF5QkEy9lleMNyEfWA6_STGBno0Vd6DB2lZE1g&oe=6A95D0B4",
+      "videoUrl": "https://scontent-ord5-2.cdninstagram.com/o1/v/t2/f2/m367/AQPKEd7iZXVZKL5tgZf1YkNlz-1yw1wl-AoEENhOqsZ6R2XO7FHv3P89GMuWtnczyVAxHvon6EAOgBxOsd7LwB_OYS0EC9laQSl8Ik8.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_ohc=gwGSms97UiIQ7kNvwFxnMA3&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NDQxMjc5NTg0NTYyMTE4OSwiYXNzZXRfYWdlX2RheXMiOjI3OSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjg4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=6e7cb9c79445d77d&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC9DNDQ1NzdGQzcwMjlDQzEwOEIzNjMzN0VGOUM3QzRBQ192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYRmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84NzgzNzM4MzQ3NTQ0MDdfMTQyMDg1MTQ1MjI4ODI5MDYyOC5tcDQVAgLIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmitfBjcPa1g8VAigCQzMsF0BWEzMzMzMzGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2XmnQEA&_nc_gid=8GFQZkVIQoO5dj3Nh3eq9A&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AQE_lqvpQdRGmNoFT6RLxqeKrsLycnOfrl2cUmExYLoEnw&oe=6A95A71D",
+      "likes": 300,
+      "comments": 66,
+      "views": 4424,
+      "reach": 2867,
+      "saves": 17,
+      "shares": 3
+    },
+    {
+      "id": "18034509656412114",
+      "permalink": "https://www.instagram.com/p/DEx46PFRbxi/",
+      "timestamp": "2025-01-13T20:40:21+0000",
+      "caption": "when in naples ♡",
+      "mediaType": "CAROUSEL_ALBUM",
+      "thumbnail": null,
+      "videoUrl": null,
+      "likes": 734,
+      "comments": 104,
+      "views": 16512,
+      "reach": 3840,
+      "saves": 7,
+      "shares": 9
+    },
+    {
+      "id": "18032903024410751",
+      "permalink": "https://www.instagram.com/p/DElVrUzRp93/",
+      "timestamp": "2025-01-08T23:41:35+0000",
+      "caption": "a series of fortunate events 🤍",
+      "mediaType": "CAROUSEL_ALBUM",
+      "thumbnail": null,
+      "videoUrl": null,
+      "likes": 513,
+      "comments": 50,
+      "views": 15193,
+      "reach": 3954,
+      "saves": 8,
+      "shares": 2
+    },
+    {
+      "id": "18025523759186077",
+      "permalink": "https://www.instagram.com/p/DBRYEaDRFQB/",
+      "timestamp": "2024-10-18T16:03:30+0000",
+      "caption": "libra szn on film ♥️",
+      "mediaType": "CAROUSEL_ALBUM",
+      "thumbnail": null,
+      "videoUrl": null,
+      "likes": 465,
+      "comments": 59,
+      "views": 15776,
+      "reach": 5286,
+      "saves": 6,
+      "shares": 25
+    },
+    {
+      "id": "17908335134835105",
+      "permalink": "https://www.instagram.com/p/C3qGPRALfFw/",
+      "timestamp": "2024-02-22T17:14:46+0000",
+      "caption": "girl bossing over the weekend❣️thank you WeCode for inviting me to speak on my career in tech — extremely blessed to give back to my community 🫶🏽",
+      "mediaType": "CAROUSEL_ALBUM",
+      "thumbnail": null,
+      "videoUrl": null,
+      "likes": 1045,
+      "comments": 132,
+      "views": 0,
+      "reach": 2757,
+      "saves": 34,
+      "shares": 2
+    },
+    {
+      "id": "18007988923828442",
+      "permalink": "https://www.instagram.com/p/CukTPZDrb8l/",
+      "timestamp": "2023-07-11T18:30:23+0000",
+      "caption": "in my donda bag ❤️‍🔥\n\nso grateful to be a part of @babyfaceray latest music video “Donda Bag” - ty @carmenmirachian & @worththeweight_ for acknowledging me alongside Detroit’s top fashion designers and creatives 🫶🏽",
+      "mediaType": "CAROUSEL_ALBUM",
+      "thumbnail": null,
+      "videoUrl": null,
+      "likes": 947,
+      "comments": 154,
+      "views": 0,
+      "reach": 1406,
+      "saves": 16,
+      "shares": 0
+    },
+    {
+      "id": "18190642573260881",
+      "permalink": "https://www.instagram.com/p/CtM8keIR1HN/",
+      "timestamp": "2023-06-07T20:18:22+0000",
+      "caption": "to pull off the official launch of @hvnlee.co while still working full time is a blessing 🥹 i’m so so grateful for every single person who attended, my beautiful models, and especially my staff. you all are HVN sent - thank you all for making this an amazing night 💫❤️ this is just the beginning, now go cop some HVNLEE! \n\nall photography by @rioviisuals @vidiinthecity @iso.sxsxmaru @benzo_be @dorian.lofton 🤍",
+      "mediaType": "CAROUSEL_ALBUM",
+      "thumbnail": null,
+      "videoUrl": null,
+      "likes": 1016,
+      "comments": 210,
+      "views": 0,
+      "reach": 1175,
+      "saves": 15,
+      "shares": 1
+    },
+    {
+      "id": "18037322752452614",
+      "permalink": "https://www.instagram.com/p/CqGqTJYuuf0/",
+      "timestamp": "2023-03-22T20:09:05+0000",
+      "caption": "i’m finally doing it!! HVNLEE is here. for so long, i didn’t think i was ready to launch a brand, but over these past few years, i’ve put in the work to learn, grow, and create. tysm for every person who believed in me & HVNLEE to get to this point. \n\ncome with me to enter the universe of luxury avant-garde streetwear 🪐🧡",
+      "mediaType": "CAROUSEL_ALBUM",
+      "thumbnail": null,
+      "videoUrl": null,
+      "likes": 1144,
+      "comments": 189,
+      "views": 0,
+      "reach": 834,
+      "saves": 30,
+      "shares": 1
+    },
+    {
+      "id": "18205599289232273",
+      "permalink": "https://www.instagram.com/p/CpLeSgHOBN8/",
+      "timestamp": "2023-02-27T20:28:57+0000",
+      "caption": "you get the point. (top by me)",
+      "mediaType": "CAROUSEL_ALBUM",
+      "thumbnail": null,
+      "videoUrl": null,
+      "likes": 648,
+      "comments": 108,
+      "views": 0,
+      "reach": 334,
+      "saves": 5,
+      "shares": 1
+    },
+    {
+      "id": "17975778535928413",
+      "permalink": "https://www.instagram.com/p/Cmw85ecy5CR/",
+      "timestamp": "2022-12-29T20:14:08+0000",
+      "caption": "q4 wrapped 🤍",
+      "mediaType": "CAROUSEL_ALBUM",
+      "thumbnail": null,
+      "videoUrl": null,
+      "likes": 1160,
+      "comments": 174,
+      "views": 0,
+      "reach": 749,
+      "saves": 24,
+      "shares": 0
+    },
+    {
+      "id": "17867969642811489",
+      "permalink": "https://www.instagram.com/p/ClzLnjwOWYS/",
+      "timestamp": "2022-12-05T20:29:50+0000",
+      "caption": "17 garments in 7 days. surreal experience for my first fashion show 🧡 these pieces represented a balance between nonconformity & harmony—this was also my first time sewing clothes not for myself 🥹\n\nmajor thank you to all the models, coordinators, stylists, @livesoreem , and everyone who came out to support 🫶🏽",
+      "mediaType": "CAROUSEL_ALBUM",
+      "thumbnail": null,
+      "videoUrl": null,
+      "likes": 1438,
+      "comments": 307,
+      "views": 0,
+      "reach": 3230,
+      "saves": 59,
+      "shares": 3
+    },
+    {
+      "id": "17978804833710803",
+      "permalink": "https://www.instagram.com/p/CjBWw99rUjL/",
+      "timestamp": "2022-09-27T19:02:26+0000",
+      "caption": "national me day 💕 (top by me)",
+      "mediaType": "CAROUSEL_ALBUM",
+      "thumbnail": null,
+      "videoUrl": null,
+      "likes": 1013,
+      "comments": 167,
+      "views": 0,
+      "reach": 918,
+      "saves": 29,
+      "shares": 0
+    },
+    {
+      "id": "17967611572746595",
+      "permalink": "https://www.instagram.com/p/Ci0MIYgrOdq/",
+      "timestamp": "2022-09-22T16:19:23+0000",
+      "caption": "big win today at work! my first hardware + software product launch (the next gen chromecast) where i managed all the internal testing from the first prototype to on-shelf 🤓 i learned so much from this project & i’m so happy to see it come to life #blackintech #baddieprogrammanager",
+      "mediaType": "CAROUSEL_ALBUM",
+      "thumbnail": null,
+      "videoUrl": null,
+      "likes": 1334,
+      "comments": 201,
+      "views": 0,
+      "reach": 372,
+      "saves": 38,
+      "shares": 2
+    },
+    {
+      "id": "17862647135696568",
+      "permalink": "https://www.instagram.com/reel/CeCS3y9F8Bm/",
+      "timestamp": "2022-05-26T21:25:23+0000",
+      "caption": "paris highlights 🤍\n\nthe most beautiful city i laid eyes on. the architecture, food (minus the escargot), and shopping was on point. until next time 💞\n\n#blackgirlstravel #paris #blackgirlluxury #solotravel #parisvlog #exploreparis",
+      "mediaType": "VIDEO",
+      "thumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.71878-15/491466293_1217556163435715_8247332805159062141_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=bQ8Dox8qw24Q7kNvwHEYj96&_nc_oc=AdrEBHAzyHvLnJWkm9GM0uERj4s-sORjbzQQjYX_fKVjJWpFqpGx10fyYGWqlB6liJw&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=8GFQZkVIQoO5dj3Nh3eq9A&_nc_tpa=Q5bMBQK8kY4DWrhLkJXpYmG7D_8rkVq7ysfDRGoxcIa1k3g49kDKVzGmzlYG8wTeRYJZ_nJx8PF9jhFP7w&oh=00_AQGC8e4c_pQBJ5aPON593LJjRAHML7UP9sbXLu1kio-HAg&oe=6A95A750",
+      "videoUrl": "https://scontent-ord5-2.cdninstagram.com/o1/v/t2/f2/m86/AQNVKp2EiBrWDcNM9D2zt4ux6MvnwoPCn2HFa5lphRR-L_IxLheOizAYdJioRw1XNpgg7yENwe0VYdjog4_SzSVuBQefY7nKzQ1UfHI.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_ohc=4rCp6VZaAgAQ7kNvwH9jaQh&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NTU4NzU1NTYyNjQ5MTE1LCJhc3NldF9hZ2VfZGF5cyI6MTU1MywidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjE1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=44412f11a65fbf57&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9DODQ0MDdBMUM0MkYzMEZBQjEzMEU0NTJGOTUzQkY4M192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HS1h5NVJCZzRiZC1SWmtDQU1weWhRbUdhMjVKYnFfRUFBQUYVAgLIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmttifre2L_gEVAigCQzMsF0AuEOVgQYk3GBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2XmnQEA&_nc_gid=8GFQZkVIQoO5dj3Nh3eq9A&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AQGizQS11SCLOy0ds1GaDWTuIpuco33ynU2sYB5or-2jaQ&oe=6A91CF2F",
+      "likes": 314,
+      "comments": 34,
+      "views": 5057,
+      "reach": 503,
+      "saves": 9,
+      "shares": 0
+    },
+    {
+      "id": "17891454293563046",
+      "permalink": "https://www.instagram.com/p/CdlfpKXoXP6/",
+      "timestamp": "2022-05-15T16:44:18+0000",
+      "caption": "happy mind, happy life",
+      "mediaType": "CAROUSEL_ALBUM",
+      "thumbnail": null,
+      "videoUrl": null,
+      "likes": 1065,
+      "comments": 89,
+      "views": 0,
+      "reach": 747,
+      "saves": 41,
+      "shares": 0
+    },
+    {
+      "id": "17977331644497015",
+      "permalink": "https://www.instagram.com/p/CdbcjMSOHXL/",
+      "timestamp": "2022-05-11T19:04:52+0000",
+      "caption": "solo trip 🤍",
+      "mediaType": "CAROUSEL_ALBUM",
+      "thumbnail": null,
+      "videoUrl": null,
+      "likes": 1088,
+      "comments": 88,
+      "views": 0,
+      "reach": 609,
+      "saves": 31,
+      "shares": 0
     }
   ]
 }

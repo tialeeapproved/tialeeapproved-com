@@ -346,10 +346,7 @@ a { color: inherit; }
 .receipt .dl { font-size: 13px; color: var(--ink-2); }
 .receipt .rs { font-family: var(--mono); font-size: 11px; color: var(--mute); margin-top: 6px; }
 
-.todo {
-  color: #b4560f;
-  border-bottom: 1px dashed currentColor;
-}
+
 
 /* ---------- contact ---------- */
 
@@ -427,3 +424,128 @@ a { color: inherit; }
   .card .meta b { font-size: 12px; }
   .card .meta span { font-size: 8px; letter-spacing: 0.06em; }
 }
+
+/* ---------- platform row ---------- */
+
+.platforms {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-top: 0;
+  margin-bottom: 34px;
+}
+
+.plat {
+  background: var(--panel);
+  padding: 16px 20px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.plat:hover { background: color-mix(in srgb, var(--panel) 92%, var(--ink)); }
+
+.plat .pn {
+  display: block;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--mute);
+}
+
+.plat .pv {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  margin: 5px 0 3px;
+}
+
+.plat .pl {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  color: var(--mute);
+}
+
+/* ---------- credentials ---------- */
+
+.creds {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 8px 32px;
+  font-size: 13px;
+  color: var(--ink-2);
+}
+
+.creds b { color: var(--ink); font-weight: 600; }
+
+/* ---------- case study ---------- */
+
+.casestudy {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  margin-bottom: 40px;
+}
+
+@media (max-width: 720px) { .casestudy { grid-template-columns: 1fr; } }
+
+.cs-body { background: var(--panel); padding: 30px 30px 32px; }
+.cs-body h3 { font-size: 26px; letter-spacing: -0.02em; margin: 14px 0 12px; font-weight: 700; }
+.cs-body .stand { font-size: 15px; color: var(--ink); font-weight: 600; margin: 0 0 14px; }
+.cs-body p { font-size: 14px; color: var(--ink-2); margin: 0 0 12px; }
+.cs-body .kicker {
+  font-size: 14px;
+  color: var(--ink);
+  border-left: 2px solid var(--accent);
+  padding-left: 14px;
+  margin-top: 18px;
+}
+
+.cs-stats {
+  background: var(--panel);
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--line);
+}
+
+.cs-stat {
+  background: var(--panel);
+  padding: 16px 24px;
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+}
+
+.cs-stat b {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  min-width: 78px;
+}
+
+.cs-stat span { font-size: 12px; color: var(--mute); }
+
+/* ---------- brand row ---------- */
+
+.brandrow { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 40px; }
+
+.brandchip {
+  border: 1px solid var(--line-2);
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.brandchip em { font-style: normal; font-weight: 400; color: var(--mute); font-size: 13px; }

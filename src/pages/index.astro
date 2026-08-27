@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
-import { site, hero, pillars, brands, services, contact, mailto, videoOverrides } from '../data/content';
+import { site, hero, pillars, brands, services, contact, mailto, videoOverrides,
+         platforms, crossPlatformTotal, credentials, audienceNote, caseStudy } from '../data/content';
 import { readSnapshot } from '../lib/store';
 import { DATA_ACCESS_EXPIRES } from '../lib/instagram';
 
@@ -39,8 +40,11 @@ const bestReachVsFollowers = best && data.followers
 
 const topCities = data.cities.slice(0, 6);
 // A media kit leads with the best work, not the most recent.
+const EIGHTEEN_MONTHS = 18 * 30 * 86_400_000;
 const work = [...data.media]
-  .filter((m) => m.reach > 0)
+  // Windowed: pre-2023 posts carry incoherent legacy metrics (huge view counts
+  // against tiny reach) that a brand would rightly question.
+  .filter((m) => m.reach > 0 && Date.now() - new Date(m.timestamp).getTime() < EIGHTEEN_MONTHS)
   .sort((a, b) => b.reach - a.reach)
   .slice(0, 8)
   // A file you host wins over Meta's URL: it never expires and always exists.
@@ -91,28 +95,42 @@ const autoplayCount = work.filter((m) => m.clip).length;
 
           <div class="headline-stats">
             <div class="stat">
+              <div class="v">{compact(crossPlatformTotal)}</div>
+              <div class="k">Across platforms</div>
+              <div class="note">TikTok · Instagram · LinkedIn · YouTube</div>
+            </div>
+            <div class="stat">
               <div class="v">{data.engagementRate}%</div>
               <div class="k">Engagement rate</div>
-              <div class="note">Interactions ÷ reach, 28 days</div>
+              <div class="note">Interactions ÷ reach, verified</div>
             </div>
             <div class="stat">
-              <div class="v">{n(data.followers)}</div>
-              <div class="k">Followers</div>
-              <div class="note">{usShare}% United States</div>
+              <div class="v">{bestReachVsFollowers.toLocaleString()}%</div>
+              <div class="k">Best post reach</div>
+              <div class="note">As a share of follower count</div>
             </div>
             <div class="stat">
-              <div class="v">{compact(data.views28)}</div>
-              <div class="k">Views · 28 days</div>
-              <div class="note">{compact(data.reach28)} accounts reached</div>
+              <div class="v">{usShare}%</div>
+              <div class="k">United States</div>
+              <div class="note">{compact(data.reach28)} reached in 28 days</div>
             </div>
-            {best && (
-              <div class="stat">
-                <div class="v">{bestReachVsFollowers}%</div>
-                <div class="k">Best post reach</div>
-                <div class="note">As a share of follower count</div>
-              </div>
-            )}
           </div>
+
+          <div class="platforms">
+            {platforms.map((p) => (
+              <a class="plat" href={p.url ?? '#'} target={p.url ? '_blank' : undefined} rel="noopener noreferrer">
+                <span class="pn">{p.name}</span>
+                <span class="pv">{compact(p.followers)}</span>
+                <span class="pl">{p.live ? 'LIVE' : 'SELF-REPORTED'}</span>
+              </a>
+            ))}
+          </div>
+
+          <ul class="creds">
+            {credentials.map((c) => (
+              <li><b>{c.label}</b> — {c.note}</li>
+            ))}
+          </ul>
         </div>
       </section>
 
@@ -181,7 +199,7 @@ const autoplayCount = work.filter((m) => m.clip).length;
               <div class="pillar">
                 <div class="ch label">CH {p.channel} · {p.name}</div>
                 <h3>{p.headline}</h3>
-                <p class={p.body.startsWith('TODO') ? 'todo' : ''}>{p.body}</p>
+                <p>{p.body}</p>
               </div>
             ))}
           </div>
@@ -237,15 +255,27 @@ const autoplayCount = work.filter((m) => m.clip).length;
             <span class="section-num">05</span>
             <span class="section-title">Receipts</span>
             <span class="rule"></span>
-            <span class="section-tag">Brands · what it produced</span>
+            <span class="section-tag">{audienceNote}</span>
           </div>
-          <div class="receipts">
+          <div class="casestudy">
+            <div class="cs-body">
+              <div class="label">{caseStudy.label}</div>
+              <h3>{caseStudy.title}</h3>
+              <p class="stand">{caseStudy.standfirst}</p>
+              <p>{caseStudy.body}</p>
+              <p class="kicker">{caseStudy.kicker}</p>
+            </div>
+            <div class="cs-stats">
+              {caseStudy.stats.map((s) => (
+                <div class="cs-stat"><b>{s.value}</b><span>{s.label}</span></div>
+              ))}
+            </div>
+          </div>
+
+          <div class="label" style="margin-bottom:14px">Partnered with</div>
+          <div class="brandrow">
             {brands.map((b) => (
-              <div class="receipt">
-                <div class="nm">{b.name}</div>
-                <div class={`dl ${b.delivered.startsWith('TODO') ? 'todo' : ''}`}>{b.delivered}</div>
-                <div class={`rs ${b.result.startsWith('TODO') ? 'todo' : ''}`}>{b.result}</div>
-              </div>
+              <span class="brandchip">{b.name}{b.work && <em> · {b.work}</em>}</span>
             ))}
           </div>
         </div>

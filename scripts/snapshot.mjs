@@ -43,6 +43,21 @@ const breakdown = (p) =>
     .map((r) => ({ label: r.dimension_values[0], value: r.value }))
     .sort((a, b) => b.value - a.value);
 
+// Walk back through the feed — the best post is often months old.
+async function fetchMedia() {
+  const fields = 'id,permalink,timestamp,caption,media_type,thumbnail_url,media_url,like_count,comments_count';
+  const out = []; let after;
+  for (let page = 0; page < 3 && out.length < 50; page++) {
+    const params = { fields, limit: '25' };
+    if (after) params.after = after;
+    const r = await graph(`${IG}/media`, params);
+    out.push(...(r.data ?? []));
+    after = r.paging?.cursors?.after;
+    if (!after || !r.data?.length) break;
+  }
+  return { data: out.slice(0, 50) };
+}
+
 const now = Math.floor(Date.now() / 1000);
 const since = String(now - 28 * 86400);
 const until = String(now);
@@ -58,10 +73,7 @@ const [profile, reach, totals, age, gender, city, country, media] = await Promis
   graph(`${IG}/insights`, { metric: 'follower_demographics', period: 'lifetime', metric_type: 'total_value', breakdown: 'gender' }),
   graph(`${IG}/insights`, { metric: 'follower_demographics', period: 'lifetime', metric_type: 'total_value', breakdown: 'city' }),
   graph(`${IG}/insights`, { metric: 'follower_demographics', period: 'lifetime', metric_type: 'total_value', breakdown: 'country' }),
-  graph(`${IG}/media`, {
-    fields: 'id,permalink,timestamp,caption,media_type,thumbnail_url,media_url,like_count,comments_count',
-    limit: '12',
-  }),
+  fetchMedia(),
 ]);
 
 const totalOf = (n) => totals.data?.find((m) => m.name === n)?.total_value?.value ?? 0;
