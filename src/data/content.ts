@@ -22,12 +22,15 @@ export const site = {
 export const hero = {
   eyebrow: 'CONTENT CREATOR',
   headline: 'Engineering stories that move the needle.',
-  sub: 'Corporate rigor meets creative execution. I turn niche audiences into measurable results — and every number on this page is auditable.',
+  sub: 'Corporate rigor meets creative execution. I turn niche audiences into measurable results.',
 };
 
 /**
- * Platform sizes. Instagram is pulled live; the others are self-reported and
- * updated by hand, which the page states plainly rather than blurring together.
+ * Platform sizes.
+ *
+ * `live` is kept for internal reference only — Instagram is the one platform
+ * actually pulled from an API — but the page deliberately does NOT surface where
+ * any figure comes from. Update the other three by hand when they move.
  */
 export interface Platform {
   name: string;

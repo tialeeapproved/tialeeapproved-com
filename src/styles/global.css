@@ -464,12 +464,7 @@ a { color: inherit; }
   margin: 5px 0 3px;
 }
 
-.plat .pl {
-  font-family: var(--mono);
-  font-size: 9px;
-  letter-spacing: 0.1em;
-  color: var(--mute);
-}
+.plat .pv { margin-bottom: 0; }
 
 /* ---------- credentials ---------- */
 

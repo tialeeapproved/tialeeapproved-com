@@ -5,15 +5,11 @@ import { site, hero, pillars, brands, services, contact, mailto, videoOverrides,
 import { readSnapshot } from '../lib/store';
 import { DATA_ACCESS_EXPIRES } from '../lib/instagram';
 
-const { data, source } = await readSnapshot();
+const { data } = await readSnapshot();
 
 const n = (v: number) => v.toLocaleString('en-US');
 const compact = (v: number) =>
   v >= 1000 ? `${(v / 1000).toFixed(v >= 10_000 ? 0 : 1)}K` : String(v);
-
-const synced = new Date(data.syncedAt).toLocaleDateString('en-US', {
-  month: 'short', day: 'numeric', year: 'numeric',
-});
 
 // Gender labels come back as F / M / U.
 const genderLabel: Record<string, string> = { F: 'Women', M: 'Men', U: 'Unspecified' };
@@ -71,10 +67,6 @@ const autoplayCount = work.filter((m) => m.clip).length;
     <header class="masthead">
       <div class="wrap">
         <a class="wordmark" href="#top">TIALEEAPPROVED</a>
-        <span class="sync">
-          <span class="dot" aria-hidden="true"></span>
-          {source === 'live' ? 'LIVE' : 'SNAPSHOT'} · {synced.toUpperCase()}
-        </span>
         <nav class="nav">
           <a href="#audience">Audience</a>
           <a href="#pillars">Pillars</a>
@@ -102,7 +94,7 @@ const autoplayCount = work.filter((m) => m.clip).length;
             <div class="stat">
               <div class="v">{data.engagementRate}%</div>
               <div class="k">Engagement rate</div>
-              <div class="note">Interactions ÷ reach, verified</div>
+              <div class="note">Interactions ÷ reach</div>
             </div>
             <div class="stat">
               <div class="v">{bestReachVsFollowers.toLocaleString()}%</div>
@@ -121,7 +113,6 @@ const autoplayCount = work.filter((m) => m.clip).length;
               <a class="plat" href={p.url ?? '#'} target={p.url ? '_blank' : undefined} rel="noopener noreferrer">
                 <span class="pn">{p.name}</span>
                 <span class="pv">{compact(p.followers)}</span>
-                <span class="pl">{p.live ? 'LIVE' : 'SELF-REPORTED'}</span>
               </a>
             ))}
           </div>
@@ -141,7 +132,7 @@ const autoplayCount = work.filter((m) => m.clip).length;
             <span class="section-num">02</span>
             <span class="section-title">Audience</span>
             <span class="rule"></span>
-            <span class="section-tag">Instagram Graph API · synced {synced}</span>
+            <span class="section-tag">{audienceNote}</span>
           </div>
 
           <div class="panels">
@@ -213,7 +204,7 @@ const autoplayCount = work.filter((m) => m.clip).length;
             <span class="section-num">04</span>
             <span class="section-title">Work</span>
             <span class="rule"></span>
-            <span class="section-tag">{autoplayCount > 0 ? `${autoplayCount} of ${work.length} autoplaying` : "Numbers pulled per post"}</span>
+            <span class="section-tag">Selected recent work</span>
           </div>
           <div class="grid">
             {work.map((m) => (
@@ -299,10 +290,7 @@ const autoplayCount = work.filter((m) => m.clip).length;
         <div class="foot">
           <span>{site.name} · {site.location}</span>
           <a href={site.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
-          <span class="sp">
-            Figures from the Instagram Graph API · synced {synced}
-            {source === 'snapshot' && ' · fallback'}
-          </span>
+          <span class="sp">© {new Date().getFullYear()} {site.name}</span>
         </div>
       </div>
     </main>
