@@ -1,11 +1,26 @@
 ---
 import '../styles/global.css';
+import { Fragment } from 'astro/jsx-runtime';
 import { site, hero, pillars, brands, services, contact, mailto, videoOverrides,
          platforms, crossPlatformTotal, credentials, audienceNote, caseStudy } from '../data/content';
 import { readSnapshot } from '../lib/store';
 import { DATA_ACCESS_EXPIRES } from '../lib/instagram';
 
 const { data } = await readSnapshot();
+
+/*
+ * Staleness guard.
+ *
+ * Some figures are claims about a *window* — "reached, 28 days" is false if the
+ * data is two months old. Rather than present a stale number as current, those
+ * tiles swap for figures that stay true regardless of age.
+ *
+ * Looser than /api/health's threshold on purpose: health warns Tia early, the
+ * page only changes when a number would actually mislead a reader.
+ */
+const STALE_PAGE_DAYS = 14;
+const dataAgeDays = Math.floor((Date.now() - new Date(data.syncedAt).getTime()) / 86_400_000);
+const windowed = dataAgeDays < STALE_PAGE_DAYS;
 
 const n = (v: number) => v.toLocaleString('en-US');
 const compact = (v: number) =>
@@ -91,20 +106,39 @@ const autoplayCount = work.filter((m) => m.clip).length;
               <div class="k">Across platforms</div>
               <div class="note">TikTok · Instagram · LinkedIn · YouTube</div>
             </div>
-            <div class="stat">
-              <div class="v">{data.engagementRate}%</div>
-              <div class="k">Engagement rate</div>
-              <div class="note">Interactions ÷ reach</div>
-            </div>
+
+            {windowed ? (
+              <div class="stat">
+                <div class="v">{compact(data.reach28)}</div>
+                <div class="k">Reached · 28 days</div>
+                <div class="note">{Math.round(data.reach28 / data.followers)}x the follower count</div>
+              </div>
+            ) : (
+              <div class="stat">
+                <div class="v">{n(data.followers)}</div>
+                <div class="k">Instagram</div>
+                <div class="note">Followers</div>
+              </div>
+            )}
+
+            {windowed ? (
+              <div class="stat">
+                <div class="v">{n(data.interactions28)}</div>
+                <div class="k">Interactions · 28 days</div>
+                <div class="note">Likes, comments, saves, shares</div>
+              </div>
+            ) : (
+              <div class="stat">
+                <div class="v">{usShare}%</div>
+                <div class="k">United States</div>
+                <div class="note">Of the audience</div>
+              </div>
+            )}
+
             <div class="stat">
               <div class="v">{bestReachVsFollowers.toLocaleString()}%</div>
               <div class="k">Best post reach</div>
               <div class="note">As a share of follower count</div>
-            </div>
-            <div class="stat">
-              <div class="v">{usShare}%</div>
-              <div class="k">United States</div>
-              <div class="note">{compact(data.reach28)} reached in 28 days</div>
             </div>
           </div>
 
@@ -159,12 +193,17 @@ const autoplayCount = work.filter((m) => m.clip).length;
             </div>
 
             <div class="panel">
-              <h3 class="label">Behaviour · 28 days</h3>
-              <div class="bar-row"><span class="bl" style="width:auto;flex:1">Saves</span><span class="bv">{n(data.saves28)}</span></div>
-              <div class="bar-row"><span class="bl" style="width:auto;flex:1">Shares</span><span class="bv">{n(data.shares28)}</span></div>
-              <div class="bar-row"><span class="bl" style="width:auto;flex:1">Interactions</span><span class="bv">{n(data.interactions28)}</span></div>
-              <div class="bar-row"><span class="bl" style="width:auto;flex:1">Profile views</span><span class="bv">{n(data.profileViews28)}</span></div>
-              <h3 class="label" style="margin-top:22px">Gender</h3>
+              {windowed && (
+                <Fragment>
+                  <h3 class="label">Behaviour · 28 days</h3>
+                  <div class="bar-row"><span class="bl" style="width:auto;flex:1">Engagement rate</span><span class="bv">{data.engagementRate}%</span></div>
+                  <div class="bar-row"><span class="bl" style="width:auto;flex:1">Saves</span><span class="bv">{n(data.saves28)}</span></div>
+                  <div class="bar-row"><span class="bl" style="width:auto;flex:1">Shares</span><span class="bv">{n(data.shares28)}</span></div>
+                  <div class="bar-row"><span class="bl" style="width:auto;flex:1">Profile views</span><span class="bv">{n(data.profileViews28)}</span></div>
+                  <div class="bar-row"><span class="bl" style="width:auto;flex:1">United States</span><span class="bv">{usShare}%</span></div>
+                </Fragment>
+              )}
+              <h3 class="label" style={windowed ? 'margin-top:22px' : ''}>Gender</h3>
               {data.gender.map((g) => (
                 <div class="bar-row">
                   <span class="bl" style="width:auto;flex:1">{genderLabel[g.label] ?? g.label}</span>

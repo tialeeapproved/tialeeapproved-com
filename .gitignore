@@ -10,3 +10,9 @@ dist/
 public/clips/*.MOV
 public/clips/*.mov
 public/clips/*.MP4.original
+
+# Scratch that cannot be deleted from the mount
+_to_delete/
+
+# Local copy of the Vercel secrets — never commit
+vercel-env.txt
